@@ -1,0 +1,251 @@
+Address Type,Status,Entity,StreetAddress,Suite or app,City,State,ZipCode,Country,Notes
+Shipping,Active,Customer,0463 Bay Street,,Norman Wells,NT,H3G,Canada,-
+Billing,Active,Building,29 Cherokee Point,,Fullerton,CA,92640,United States,-
+Home,Active,Customer,55334 Elmside Circle,,El Paso,TX,88553,United States,-
+Business,Active,Building,28297 Bunting Terrace,,New Orleans,LA,70116,United States,-
+Business,Active,Customer,4 Washington Park,,Chicago,IL,60652,United States,-
+Home,Active,Building,5568 Westerfield Parkway,,New York City,NY,10175,United States,-
+Business,Active,Customer,9703 Nobel Way,,Port Colborne,ON,L3K,Canada,-
+Home,Active,Building,80 Northport Crossing,,Colorado Springs,CO,80915,United States,-
+Billing,Active,Customer,8363 Linden Pass,,Omaha,NE,68110,United States,-
+Home,Active,Building,28991 Lunder Park,,Pittsburgh,PA,15286,United States,-
+Shipping,Active,Customer,35942 Huxley Lane,,Beaverlodge,AB,G8A,Canada,-
+Business,Active,Building,165 Del Mar Drive,,Huntington,WV,25775,United States,-
+Home,Active,Customer,0297 Debra Point,,North Perth,ON,E6J,Canada,-
+Business,Active,Building,6451 Texas Parkway,,Provo,UT,84605,United States,-
+Shipping,Active,Customer,9166 Randy Trail,,Owen Sound,ON,N4K,Canada,-
+Billing,Active,Building,3709 Vidon Terrace,,Dieppe,NB,E1A,Canada,-
+Business,Active,Customer,182 Hagan Pass,,Amos,QC,J9T,Canada,-
+Business,Active,Building,8331 Buhler Lane,,Marietta,GA,30061,United States,-
+Billing,Active,Customer,67326 Roth Drive,,Gananoque,ON,K7G,Canada,-
+Home,Active,Building,93146 Rigney Hill,,Sarnia,ON,N7V,Canada,-
+Business,Active,Customer,7 John Wall Park,,Cheyenne,WY,82007,United States,-
+Shipping,Active,Building,240 Ronald Regan Junction,,Neuville,QC,T9M,Canada,-
+Business,Active,Customer,3 Lillian Circle,,Albuquerque,NM,87140,United States,-
+Home,Active,Building,78 Havey Way,,Salt Lake City,UT,84115,United States,-
+Business,Active,Customer,18 Pierstorff Point,,New-Richmond,QC,J7R,Canada,-
+Home,Active,Building,73 Comanche Court,,Colorado Springs,CO,80915,United States,-
+Business,Active,Customer,060 Claremont Avenue,,Roblin,MB,R7N,Canada,-
+Business,Active,Building,1 Prairieview Street,,Chesapeake,VA,23324,United States,-
+Shipping,Active,Customer,7 Farwell Terrace,,Kissimmee,FL,34745,United States,-
+Business,Active,Building,104 Melvin Avenue,,Lambton Shores,ON,J5T,Canada,-
+Home,Active,Customer,4 Harbort Plaza,,Two Hills,AB,J9H,Canada,-
+Home,Active,Building,26 Lukken Junction,,Des Moines,IA,50981,United States,-
+Business,Active,Customer,881 Donald Street,,La Sarre,QC,J9Z,Canada,-
+Business,Active,Building,36 Hollow Ridge Junction,,Washington,DC,20535,United States,-
+Shipping,Active,Customer,0 North Center,,Saint Joseph,MO,64504,United States,-
+Business,Active,Building,314 Dahle Parkway,,Springfield,MO,65898,United States,-
+Business,Active,Customer,09730 Gale Road,,Sechelt,BC,K1B,Canada,-
+Home,Active,Building,17 Karstens Plaza,,Jamaica,NY,11470,United States,-
+Business,Active,Customer,1766 Tennyson Circle,,Anniston,AL,36205,United States,-
+Business,Active,Building,3250 Talmadge Circle,,Saint Augustine,FL,32092,United States,-
+Shipping,Active,Customer,230 Anthes Road,,Grand Forks,ND,58207,United States,-
+Business,Active,Building,7 Bultman Alley,,Columbus,OH,43240,United States,-
+Home,Active,Customer,7 Dapin Point,,Rochester,NY,14652,United States,-
+Business,Active,Building,66443 Grover Trail,,Erie,PA,16534,United States,-
+Billing,Active,Customer,27789 Onsgard Street,,Campbellton,NB,E3N,Canada,-
+Business,Active,Building,81 Northland Road,,Daveluyville,QC,R3P,Canada,-
+Home,Active,Customer,68454 Summer Ridge Pass,,Napierville,QC,M2N,Canada,-
+Billing,Active,Building,04 Manufacturers Junction,,Waterbury,CT,6705,United States,-
+Business,Active,Customer,42803 Gina Circle,,Markham,ON,L6E,Canada,-
+Business,Active,Building,1 Golf View Lane,,Odessa,TX,79764,United States,-
+Billing,Active,Customer,04577 Mallard Park,,Seattle,WA,98148,United States,-
+Business,Active,Building,6200 Northview Alley,,Pensacola,FL,32505,United States,-
+Business,Active,Customer,7 Lawn Place,,Omaha,NE,68164,United States,-
+Billing,Active,Building,7 Esker Drive,,Charlottetown,PE,C1B,Canada,-
+Business,Active,Customer,92793 Cardinal Point,,Les Coteaux,QC,J7X,Canada,-
+Home,Active,Building,7332 Homewood Lane,,Los Angeles,CA,90071,United States,-
+Shipping,Active,Customer,9 Old Shore Avenue,,Oshawa,ON,L1K,Canada,-
+Business,Active,Building,61281 Pawling Lane,,Springfield,MA,1129,United States,-
+Business,Active,Customer,4104 Declaration Center,,Sacramento,CA,94291,United States,-
+Home,Active,Building,9288 Mariners Cove Junction,,Catalina,NL,B2V,Canada,-
+Business,Active,Customer,986 Heath Pass,,Salt Lake City,UT,84170,United States,-
+Business,Active,Building,8 Spenser Pass,,Kitchener,ON,N2R,Canada,-
+Home,Active,Customer,025 Claremont Junction,,Denton,TX,76210,United States,-
+Business,Active,Building,8418 Hauk Center,,Vaughan,ON,M3N,Canada,-
+Shipping,Active,Customer,846 Graedel Park,,San Diego,CA,92127,United States,-
+Business,Active,Building,225 Longview Way,,Baltimore,MD,21216,United States,-
+Home,Active,Customer,8998 Carberry Avenue,,Cumming,GA,30130,United States,-
+Business,Active,Building,96243 Basil Parkway,,Philadelphia,PA,19191,United States,-
+Home,Active,Customer,42455 Kennedy Terrace,,Mont-Joli,QC,G5H,Canada,-
+Shipping,Active,Building,3 Scofield Avenue,,Albany,NY,12247,United States,-
+Business,Active,Customer,1 Daystar Way,,Muskegon,MI,49444,United States,-
+Home,Active,Building,8320 Jenifer Junction,,Pasadena,NL,B2J,Canada,-
+Business,Active,Customer,07 Sunfield Hill,,Orlando,FL,32835,United States,-
+Shipping,Active,Building,8196 Swallow Avenue,,Las Cruces,NM,88006,United States,-
+Business,Active,Customer,648 American Ash Trail,,Roblin,MB,R7N,Canada,-
+Home,Active,Building,0 Fairview Drive,,Washington,DC,20016,United States,-
+Billing,Active,Customer,47105 Jenna Street,,Waterloo,ON,N2L,Canada,-
+Business,Active,Building,1525 Eliot Pass,,Memphis,TN,38168,United States,-
+Billing,Active,Customer,33 Leroy Parkway,,Pasadena,NL,B2J,Canada,-
+Home,Active,Building,1 Packers Crossing,,Dearborn,MI,48126,United States,-
+Business,Active,Customer,4157 Kennedy Park,,Sutton,QC,J5B,Canada,-
+Shipping,Active,Building,74647 Eliot Plaza,,Austin,TX,78769,United States,-
+Business,Active,Customer,185 Delaware Parkway,,Dallas,TX,75236,United States,-
+Home,Active,Building,5960 Rieder Drive,,Honolulu,HI,96835,United States,-
+Business,Active,Customer,0118 Shoshone Parkway,,Chicago,IL,60624,United States,-
+Business,Active,Building,74 Lillian Court,,Iqaluit,NU,K6K,Canada,-
+Home,Active,Customer,1 Rusk Park,,New Westminster,BC,V4C,Canada,-
+Business,Active,Building,075 Alpine Junction,,Lees Summit,MO,64082,United States,-
+Business,Active,Customer,4701 Tennyson Lane,,Morden,MB,R6M,Canada,-
+Shipping,Active,Building,5 Monica Way,,Minneapolis,MN,55446,United States,-
+Business,Active,Customer,4 Bartelt Road,,Savannah,GA,31422,United States,-
+Billing,Active,Building,32535 Leroy Court,,Nashville,TN,37220,United States,-
+Business,Active,Customer,2425 Northridge Way,,Tyler,TX,75799,United States,-
+Home,Active,Building,58 Hanson Street,,Van Nuys,CA,91406,United States,-
+Business,Active,Customer,260 Dorton Plaza,,Vancouver,WA,98664,United States,-
+Billing,Active,Building,381 Oakridge Trail,,Milwaukee,WI,53263,United States,-
+Business,Active,Customer,75900 Forest Dale Avenue,,Wabana,NL,V7X,Canada,-
+Home,Active,Building,06 Sauthoff Drive,,Port Hawkesbury,NS,B9A,Canada,-
+Business,Active,Customer,48 Heath Plaza,,Simi Valley,CA,93094,United States,-
+Shipping,Active,Building,8677 Surrey Park,,Rockford,IL,61105,United States,-
+Business,Active,Customer,62446 Clarendon Road,,Toledo,OH,43610,United States,-
+Business,Active,Building,83 Randy Plaza,,Fort Worth,TX,76129,United States,-
+Billing,Active,Customer,96 Lakeland Parkway,,Tallahassee,FL,32314,United States,-
+Business,Active,Building,0412 Northwestern Parkway,,Miami,FL,33129,United States,-
+Home,Active,Customer,2583 Memorial Drive,,Buffalo,NY,14225,United States,-
+Business,Active,Building,35 Bobwhite Trail,,San Antonio,TX,78220,United States,-
+Billing,Active,Customer,7810 Moose Way,,Salt Lake City,UT,84120,United States,-
+Business,Active,Building,4327 Bunker Hill Road,,Sacramento,CA,95833,United States,-
+Home,Active,Customer,1 La Follette Plaza,,Young America,MN,55564,United States,-
+Business,Active,Building,41 Maple Park,,Dayton,OH,45432,United States,-
+Shipping,Active,Customer,01177 Lillian Park,,Las Vegas,NV,89115,United States,-
+Business,Active,Building,82020 School Circle,,Knoxville,TN,37924,United States,-
+Billing,Active,Customer,0 Miller Parkway,,Milwaukee,WI,53225,United States,-
+Business,Active,Building,2228 Prairie Rose Way,,Minneapolis,MN,55458,United States,-
+Home,Active,Customer,50 Mayfield Road,,Sacramento,CA,94250,United States,-
+Billing,Active,Building,05266 Hollow Ridge Trail,,Memphis,TN,38161,United States,-
+Business,Active,Customer,4 Norway Maple Hill,,Omaha,NE,68110,United States,-
+Business,Active,Building,449 Schurz Terrace,,Norfolk,VA,23504,United States,-
+Billing,Active,Customer,80525 Lake View Crossing,,Boissevain,MB,G7S,Canada,-
+Business,Active,Building,4 Barnett Pass,,Sainte-Martine,QC,A1C,Canada,-
+Business,Active,Customer,682 School Court,,Antigonish,NS,B2G,Canada,-
+Shipping,Active,Building,959 Paget Court,,Katy,TX,77493,United States,-
+Home,Active,Customer,6 Kipling Road,,Newport News,VA,23605,United States,-
+Business,Active,Building,49603 Coolidge Hill,,Las Cruces,NM,88006,United States,-
+Billing,Active,Customer,9 Lillian Road,,Thompson,MB,R8N,Canada,-
+Business,Active,Building,84 Reindahl Place,,Rochester,MN,55905,United States,-
+Billing,Active,Customer,3034 Hermina Street,,Hamilton,OH,45020,United States,-
+Business,Active,Building,011 6th Plaza,,Kansas City,KS,66160,United States,-
+Business,Active,Customer,3 Havey Drive,,Olympia,WA,98516,United States,-
+Business,Active,Building,195 Commercial Court,,Richmond,QC,V6Z,Canada,-
+Shipping,Active,Customer,90 Riverside Plaza,,Des Moines,IA,50362,United States,-
+Home,Active,Building,29317 Amoth Terrace,,Vancouver,WA,98682,United States,-
+Business,Active,Customer,4 Merrick Avenue,,Chicago,IL,60674,United States,-
+Home,Active,Building,22 Elmside Place,,Los Angeles,CA,90045,United States,-
+Business,Active,Customer,3918 Melby Parkway,,Omaha,NE,68144,United States,-
+Shipping,Active,Building,84 Hermina Plaza,,Corpus Christi,TX,78410,United States,-
+Business,Active,Customer,85862 Loomis Center,,Shawnee Mission,KS,66205,United States,-
+Business,Active,Building,34 Oakridge Center,,South River,ON,P3Y,Canada,-
+Billing,Active,Customer,02 Springs Street,,Tempe,AZ,85284,United States,-
+Shipping,Active,Building,87 Esch Place,,Lunenburg,NS,M9L,Canada,-
+Home,Active,Customer,1464 Walton Court,,Huntington,WV,25705,United States,-
+Business,Active,Building,05 Graceland Drive,,San Francisco,CA,94154,United States,-
+Business,Active,Customer,17962 Merry Trail,,Les Cèdres,QC,J6S,Canada,-
+Billing,Active,Building,2 Cordelia Pass,,Oliver,BC,E5L,Canada,-
+Home,Active,Customer,59945 Trailsway Place,,Shawnee Mission,KS,66205,United States,-
+Business,Active,Building,509 Helena Point,,Denver,CO,80204,United States,-
+Shipping,Active,Customer,57 Schlimgen Junction,,San Bernardino,CA,92415,United States,-
+Business,Active,Building,17 Jenifer Trail,,Houston,TX,77260,United States,-
+Home,Active,Customer,006 Kim Trail,,Washington,DC,20337,United States,-
+Business,Active,Building,917 Tony Park,,Marieville,QC,J3M,Canada,-
+Home,Active,Customer,43 Melrose Terrace,,Bonavista,NL,E8M,Canada,-
+Business,Active,Building,1219 Tennyson Street,,Richmond,VA,23272,United States,-
+Business,Active,Customer,04 Kensington Street,,Washington,DC,20238,United States,-
+Home,Active,Building,51030 Sheridan Lane,,Baltimore,MD,21290,United States,-
+Business,Active,Customer,40619 Dennis Drive,,Washington,DC,20310,United States,-
+Business,Active,Building,34044 Butterfield Avenue,,Maskinongé,QC,T7A,Canada,-
+Shipping,Active,Customer,60 Kropf Road,,High River,AB,T1V,Canada,-
+Business,Active,Building,1 Thierer Point,,Irvine,CA,92619,United States,-
+Business,Active,Customer,6 Gerald Hill,,Pasadena,CA,91131,United States,-
+Home,Active,Building,949 Kingsford Hill,,Cincinnati,OH,45296,United States,-
+Business,Active,Customer,149 Darwin Parkway,,Garland,TX,75049,United States,-
+Billing,Active,Building,27 Corry Avenue,,Birmingham,AL,35263,United States,-
+Billing,Active,Customer,2 Manufacturers Way,,Kapuskasing,ON,P5N,Canada,-
+Business,Active,Building,560 Red Cloud Way,,Olympia,WA,98516,United States,-
+Shipping,Active,Customer,7 Buhler Lane,,Bellevue,WA,98008,United States,-
+Business,Active,Building,03846 Northridge Way,,Skatepark,ON,K7R,Canada,-
+Home,Active,Customer,1298 Esker Point,,Petawawa,ON,K8H,Canada,-
+Business,Active,Building,664 Merry Lane,,Brooklyn,NY,11215,United States,-
+Business,Active,Customer,1658 Shasta Trail,,Gravelbourg,SK,G8V,Canada,-
+Shipping,Active,Building,92621 Nova Junction,,New-Richmond,QC,J7R,Canada,-
+Billing,Active,Customer,594 Sunfield Lane,,Chico,CA,95973,United States,-
+Business,Active,Building,35812 Banding Lane,,Oakland,CA,94611,United States,-
+Business,Active,Customer,5 Upham Junction,,Thompson,MB,R8N,Canada,-
+Billing,Active,Building,91 Cambridge Street,,Viking,AB,E4G,Canada,-
+Business,Active,Customer,488 North Court,,Charlotte,NC,28210,United States,-
+Home,Active,Building,42 Northfield Street,,Las Vegas,NV,89110,United States,-
+Shipping,Active,Customer,92 Acker Circle,,Lansing,MI,48919,United States,-
+Billing,Active,Building,58 Shoshone Place,,Sacramento,CA,95818,United States,-
+Business,Active,Customer,97 Menomonie Hill,,Newark,NJ,7195,United States,-
+Business,Active,Building,716 Becker Center,,Boston,MA,2208,United States,-
+Shipping,Active,Customer,3281 Grover Alley,,Lubbock,TX,79491,United States,-
+Business,Active,Building,1 Lakewood Street,,Iqaluit,NU,K6K,Canada,-
+Business,Active,Customer,7 Nova Lane,,Two Hills,AB,J9H,Canada,-
+Business,Active,Building,2 Bunting Junction,,Hearst,ON,S4A,Canada,-
+Business,Active,Customer,1726 Vernon Road,,Wichita,KS,67260,United States,-
+Billing,Active,Building,1226 Tomscot Way,,Little Rock,AR,72204,United States,-
+Business,Active,Customer,8 Sundown Road,,Banff,AB,T1L,Canada,-
+Business,Active,Building,9602 Redwing Avenue,,Tulsa,OK,74184,United States,-
+Business,Active,Customer,81 Rutledge Circle,,Rockford,IL,61110,United States,-
+Home,Active,Building,9967 Fremont Plaza,,Jamaica,NY,11407,United States,-
+Business,Active,Customer,0999 Eagan Place,,Phoenix,AZ,85062,United States,-
+Home,Active,Building,59 Sheridan Drive,,Daytona Beach,FL,32123,United States,-
+Home,Active,Customer,8 Cascade Alley,,Minnedosa,MB,N3E,Canada,-
+Business,Active,Building,6 Shoshone Circle,,Saint-Lin-Laurentides,QC,J5M,Canada,-
+Billing,Active,Customer,0179 Di Loreto Drive,,San Diego,CA,92176,United States,-
+Business,Active,Building,1 Brickson Park Park,,Beaufort,SC,29905,United States,-
+Business,Active,Customer,03 Monument Way,,Oklahoma City,OK,73173,United States,-
+Business,Active,Building,3121 Bartillon Court,,Boston,MA,2298,United States,-
+Billing,Active,Customer,099 Division Crossing,,Simi Valley,CA,93094,United States,-
+Home,Active,Building,0446 Gale Trail,,Coquitlam,BC,V3B,Canada,-
+Business,Active,Customer,69544 Forest Run Junction,,El Paso,TX,79940,United States,-
+Business,Active,Building,626 Petterle Court,,Asheville,NC,28805,United States,-
+Home,Active,Customer,4 Prentice Hill,,Austin,TX,78759,United States,-
+Shipping,Active,Building,824 Mifflin Trail,,Torbay,NL,A1K,Canada,-
+Business,Active,Customer,7085 Atwood Circle,,Gibsons,BC,L6R,Canada,-
+Home,Active,Building,9804 Sauthoff Place,,Sioux Falls,SD,57193,United States,-
+Business,Active,Customer,399 Gale Trail,,Marieville,QC,J3M,Canada,-
+Billing,Active,Building,5 Upham Hill,,Ormstown,QC,J0S,Canada,-
+Business,Active,Customer,426 John Wall Park,,Jamaica,NY,11480,United States,-
+Business,Active,Building,0 Eggendart Plaza,,Maple Ridge,BC,V2X,Canada,-
+Shipping,Active,Customer,4 Truax Lane,,Raleigh,NC,27690,United States,-
+Home,Active,Building,209 Walton Place,,Houston,TX,77085,United States,-
+Business,Active,Customer,74 Larry Alley,,Lincoln,NE,68517,United States,-
+Billing,Active,Building,60 Debs Road,,Taber,AB,T1G,Canada,-
+Business,Active,Customer,88678 Maple Wood Point,,Oklahoma City,OK,73135,United States,-
+Billing,Active,Building,5 Ilene Road,,Albany,GA,31704,United States,-
+Business,Active,Customer,076 Vera Parkway,,Houston,TX,77090,United States,-
+Business,Active,Building,53 Granby Center,,Fort Lauderdale,FL,33355,United States,-
+Business,Active,Customer,631 Dakota Plaza,,Roblin,MB,R7N,Canada,-
+Billing,Active,Building,52 Trailsway Parkway,,Chicago,IL,60686,United States,-
+Business,Active,Customer,2866 Brentwood Center,,Chicago,IL,60624,United States,-
+Business,Active,Building,051 Schmedeman Plaza,,Orange,CA,92668,United States,-
+Billing,Active,Customer,22 Westend Alley,,Dauphin,MB,R7N,Canada,-
+Business,Active,Building,8 Westend Trail,,Dallas,TX,75260,United States,-
+Business,Active,Customer,6 Debra Parkway,,Smoky Lake,AB,N8V,Canada,-
+Home,Active,Building,522 Northview Lane,,Saint Louis,MO,63136,United States,-
+Billing,Active,Customer,096 International Alley,,Seattle,WA,98109,United States,-
+Business,Active,Building,47 Lakewood Gardens Parkway,,Petaluma,CA,94975,United States,-
+Business,Active,Customer,5 Parkside Alley,,Pompano Beach,FL,33064,United States,-
+Billing,Active,Building,895 Autumn Leaf Park,,North Cowichan,BC,V9L,Canada,-
+Shipping,Active,Customer,2294 Dryden Lane,,Vulcan,AB,V6M,Canada,-
+Business,Active,Building,05929 Cordelia Road,,Aurora,CO,80045,United States,-
+Business,Active,Customer,40 Melody Plaza,,Lac du Bonnet,MB,H4S,Canada,-
+Home,Active,Building,35331 Doe Crossing Road,,Columbus,OH,43210,United States,-
+Billing,Active,Customer,539 Raven Parkway,,Shawnee Mission,KS,66276,United States,-
+Business,Active,Building,31 Truax Alley,,New York City,NY,10155,United States,-
+Business,Active,Customer,8 Village Green Plaza,,Lansing,MI,48919,United States,-
+Business,Active,Building,69 Toban Crossing,,Baie-Comeau,QC,K1M,Canada,-
+Billing,Active,Customer,57094 Utah Pass,,Gananoque,ON,K7G,Canada,-
+Business,Active,Building,4 Sunfield Way,,San Angelo,TX,76905,United States,-
+Shipping,Active,Customer,1 Messerschmidt Park,,Saint Cloud,MN,56372,United States,-
+Business,Active,Building,0 Cardinal Park,,Sacramento,CA,95852,United States,-
+Home,Active,Customer,3 Brown Pass,,Richmond,VA,23203,United States,-
+Business,Active,Building,675 Bultman Court,,Stockton,CA,95205,United States,-
+Home,Active,Customer,655 Clove Hill,,Johnson City,TN,37605,United States,-
+Business,Active,Building,6456 Village Green Crossing,,Atlanta,GA,31119,United States,-
+Billing,Active,Customer,7185 Badeau Avenue,,Beaufort,SC,29905,United States,-
+Business,Active,Building,1 Dayton Hill,,Toledo,OH,43635,United States,-
+Shipping,Active,Customer,453 Fairfield Trail,,Reston,VA,20195,United States,-
+Home,Active,Building,80 Barby Trail,,Columbus,OH,43215,United States,-

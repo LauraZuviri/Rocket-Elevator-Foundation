@@ -1,0 +1,201 @@
+Id,Full name,Company name,Email,Phone,Project name,Project description,Department,Message,Created at,Updated at
+1,JP Boutin,Johnson Controls International plc,BrentKBynum@rhyta.com,302-718-2374,Johnson Controls International plc,,Webdesign,,12/10/2016,12/10/2016
+2,Nicolas Genest,"TPI Composites, Inc.",ThelmaCValdez@gustr.com,962-376-0870,"TPI Composites, Inc.",,Marketing,,12/10/2016,12/10/2016
+3,Philippe Bouillon,DRDGOLD Limited,RobinRCox@cuvox.de,137-526-1928,DRDGOLD Limited,,Webdesign,,13/10/2016,13/10/2016
+4,Felix-Antoine Paradis,"Genesis Energy, L.P.",DeshawnCGarcia@rhyta.com,140-634-9301,"Genesis Energy, L.P.",,Marketing,,20/10/2016,20/10/2016
+5,Remi Gagnon,Petroleo Brasileiro S.A.- Petrobras,TamelaMGarcia@teleworm.us,172-853-6352,Petroleo Brasileiro S.A.- Petrobras,,Webdesign,,20/10/2016,20/10/2016
+6,Mathieu LeFrançois,"Kinder Morgan, Inc.",EdnaPOdell@jourrapide.com,261-537-3289,"Kinder Morgan, Inc.",,Marketing,,20/10/2016,20/10/2016
+7,Nicolas Pineault,"GTx, Inc.",NancyTHigginbotham@rhyta.com,370-749-4260,"GTx, Inc.",,Webdesign,,26/10/2016,26/10/2016
+8,Serge Savoie,Flaherty & Crumrine Preferred Income Fund Incorporated,OwenTPetty@fleckens.hu,423-594-6662,Flaherty & Crumrine Preferred Income Fund Incorporated,,Marketing,,27/10/2016,27/10/2016
+9,Nadya Fortier,"Gabelli Equity Trust, Inc. (The)",MichaelLWunder@superrito.com,418-918-9850,"Gabelli Equity Trust, Inc. (The)",,Webdesign,,14/11/2016,14/11/2016
+10,Yann Dore,Vident Core US Equity ETF,EdwardDGabrielson@fleckens.hu,219-521-0018,Vident Core US Equity ETF,,Marketing,,16/11/2016,16/11/2016
+11,Stephane Bruyere,"Analog Devices, Inc.",HarrietWWhaley@superrito.com,725-684-3003,"Analog Devices, Inc.",,Webdesign,,16/11/2016,16/11/2016
+12,Gilles Trudel,WisdomTree China ex-State-Owned Enterprises Fund,HughGCain@cuvox.de,460-584-8842,WisdomTree China ex-State-Owned Enterprises Fund,,Marketing,,29/11/2016,29/11/2016
+13,Laura Zuviri,"Calavo Growers, Inc.",WilliamDBecker@teleworm.us,134-403-5810,"Calavo Growers, Inc.",,Webdesign,,03/12/2016,03/12/2016
+14,Mathieu Houde,Hyatt Hotels Corporation,MargaretJFord@einrot.com,594-673-8723,Hyatt Hotels Corporation,,Marketing,,05/12/2016,05/12/2016
+15,Brent Bynum,ON Semiconductor Corporation,JohnHButcher@teleworm.us,275-776-0683,ON Semiconductor Corporation,,Webdesign,,13/12/2016,13/12/2016
+16,Thelma Valdez,"Cal-Maine Foods, Inc.",YvonneRFrost@gustr.com,964-727-8059,"Cal-Maine Foods, Inc.",,Marketing,,15/12/2016,15/12/2016
+17,Robin Cox,Vanguard International High Dividend Yield ETF,BreannaOHopkins@einrot.com,777-418-3269,Vanguard International High Dividend Yield ETF,,Webdesign,,20/12/2016,20/12/2016
+18,Deshawn Garcia,Wix.com Ltd.,MariettaRSwearingen@jourrapide.com,156-629-2721,Wix.com Ltd.,,Marketing,,21/12/2016,21/12/2016
+19,Tamela Garcia,Camden National Corporation,JamesMFrame@dayrep.com,441-859-2120,Camden National Corporation,,Webdesign,,23/12/2016,23/12/2016
+20,Edna Odell,Gafisa SA,BrianDMoore@superrito.com,459-344-9318,Gafisa SA,,Marketing,,24/12/2016,24/12/2016
+21,Nancy Higginbotham,Ascendis Pharma A/S,CharlieJMcCracken@fleckens.hu,645-331-1756,Ascendis Pharma A/S,,Webdesign,,27/12/2016,27/12/2016
+22,Owen Petty,"Century Bancorp, Inc.",JasonMLightner@dayrep.com,221-566-6514,"Century Bancorp, Inc.",,Marketing,,28/12/2016,28/12/2016
+23,Michael Wunder,"Colony NorthStar, Inc.",WilliamDBarnes@einrot.com,853-670-7370,"Colony NorthStar, Inc.",,Webdesign,,29/12/2016,29/12/2016
+24,Edward Gabrielson,"NN, Inc.",FredLCade@fleckens.hu,320-559-5902,"NN, Inc.",,Marketing,,01/01/2017,01/01/2017
+25,Harriet Whaley,Renren Inc.,AmyLBruggeman@fleckens.hu,407-326-5889,Renren Inc.,,Webdesign,,06/01/2017,06/01/2017
+26,Hugh Cain,iShares MSCI EAFE ESG Optimized ETF,LauraCMejia@superrito.com,183-486-5856,iShares MSCI EAFE ESG Optimized ETF,,Marketing,,07/01/2017,07/01/2017
+27,William Becker,"CYS Investments, Inc.",MartinDFloyd@einrot.com,338-585-9999,"CYS Investments, Inc.",,Webdesign,,09/01/2017,09/01/2017
+28,Margaret Ford,CombiMatrix Corporation,JamesDBradley@dayrep.com,217-848-1496,CombiMatrix Corporation,,Marketing,,10/01/2017,10/01/2017
+29,John Butcher,"Fogo de Chao, Inc.",SandraBZimmerman@rhyta.com,685-148-5912,"Fogo de Chao, Inc.",,Webdesign,,12/01/2017,12/01/2017
+30,Yvonne Frost,Hailiang Education Group Inc.,FrancesJLevering@dayrep.com,207-943-8810,Hailiang Education Group Inc.,,Marketing,,13/01/2017,13/01/2017
+31,Breanna Hopkins,Citigroup Inc.,WendyJContreras@gustr.com,568-863-6644,Citigroup Inc.,,Webdesign,,14/01/2017,14/01/2017
+32,Marietta Swearingen,Origin Agritech Limited,MosesBRice@jourrapide.com,494-843-5134,Origin Agritech Limited,,Marketing,,18/01/2017,18/01/2017
+33,James Frame,Domtar Corporation,GraceJLair@gustr.com,502-381-1490,Domtar Corporation,,Webdesign,,24/01/2017,24/01/2017
+34,Brian Moore,WeatherStorm Forensic Accounting Long Short ETF,FriedaRLopez@cuvox.de,456-694-2462,WeatherStorm Forensic Accounting Long Short ETF,,Marketing,,31/01/2017,31/01/2017
+35,Charlie McCracken,Shinhan Financial Group Co Ltd,PeterCSchultheis@armyspy.com,691-682-0379,Shinhan Financial Group Co Ltd,,Webdesign,,04/02/2017,04/02/2017
+36,Jason Lightner,"Coherent, Inc.",DavidNArnold@cuvox.de,541-266-0669,"Coherent, Inc.",,Marketing,,05/02/2017,05/02/2017
+37,William Barnes,MB Financial Inc.,ElaineGHood@einrot.com,342-526-2495,MB Financial Inc.,,Webdesign,,07/02/2017,07/02/2017
+38,Fred Cade,"Choice Hotels International, Inc.",DanaWTracey@dayrep.com,733-217-8857,"Choice Hotels International, Inc.",,Marketing,,10/02/2017,10/02/2017
+39,Amy Bruggeman,Nuveen Preferred Income Opportunites Fund,JamesSJones@armyspy.com,114-225-8064,Nuveen Preferred Income Opportunites Fund,,Webdesign,,10/02/2017,10/02/2017
+40,Laura Mejia,Athene Holding Ltd.,RichardNBranscum@teleworm.us,466-461-5803,Athene Holding Ltd.,,Marketing,,14/02/2017,14/02/2017
+41,Martin Floyd,"Ascena Retail Group, Inc.",JohnSMyrie@einrot.com,370-454-0431,"Ascena Retail Group, Inc.",,Webdesign,,16/02/2017,16/02/2017
+42,James Bradley,"Real Industry, Inc. ",MargaretFPorto@teleworm.us,514-305-5299,"Real Industry, Inc. ",,Marketing,,21/02/2017,21/02/2017
+43,Sandra Zimmerman,Drive Shack Inc.,DebraSPapa@fleckens.hu,202-922-6464,Drive Shack Inc.,,Webdesign,,27/02/2017,27/02/2017
+44,Frances Levering,PowerShares S&P SmallCap Information Technology Portfolio,CynthiaGGarza@rhyta.com,171-943-7608,PowerShares S&P SmallCap Information Technology Portfolio,,Marketing,,03/03/2017,03/03/2017
+45,Wendy Contreras,"Compania Cervecerias Unidas, S.A.",CherylRHardy@cuvox.de,650-973-2909,"Compania Cervecerias Unidas, S.A.",,Webdesign,,18/03/2017,18/03/2017
+46,Moses Rice,First Trust Municipal CEF Income Opportunity ETF,MaryDOusley@superrito.com,764-915-8991,First Trust Municipal CEF Income Opportunity ETF,,Marketing,,25/03/2017,25/03/2017
+47,Grace Lair,iShares MSCI EAFE ESG Optimized ETF,EdnaWDuca@cuvox.de,650-432-7551,iShares MSCI EAFE ESG Optimized ETF,,Webdesign,,28/03/2017,28/03/2017
+48,Frieda Lopez,magicJack VocalTec Ltd,MaryJLawson@gustr.com,146-272-4420,magicJack VocalTec Ltd,,Marketing,,28/03/2017,28/03/2017
+49,Peter Schultheis,"Kratos Defense & Security Solutions, Inc.",JamesTMolina@cuvox.de,557-267-9939,"Kratos Defense & Security Solutions, Inc.",,Webdesign,,31/03/2017,31/03/2017
+50,David Arnold,Genpact Limited,RoyceKKirk@gustr.com,294-632-1202,Genpact Limited,,Marketing,,10/04/2017,10/04/2017
+51,Elaine Hood,"Mota Group, Inc.",SamuelLLytle@armyspy.com,709-200-4944,"Mota Group, Inc.",,Webdesign,,15/04/2017,15/04/2017
+52,Dana Tracey,"Lantronix, Inc.",DennisKMoore@fleckens.hu,695-143-1621,"Lantronix, Inc.",,Marketing,,26/04/2017,26/04/2017
+53,James Jones,"Hibbett Sports, Inc.",TimothyCThomas@rhyta.com,995-343-0969,"Hibbett Sports, Inc.",,Webdesign,,27/04/2017,27/04/2017
+54,Richard Branscum,First Financial Bancorp.,SeymourJPena@einrot.com,828-412-5648,First Financial Bancorp.,,Marketing,,03/05/2017,03/05/2017
+55,John Myrie,"Biostage, Inc.",GinnyJWages@teleworm.us,808-589-9001,"Biostage, Inc.",,Webdesign,,05/05/2017,05/05/2017
+56,Margaret Porto,"CareDx, Inc.",RubyTEvans@teleworm.us,352-647-3743,"CareDx, Inc.",,Marketing,,14/05/2017,14/05/2017
+57,Debra Papa,"Sage Therapeutics, Inc.",JenniferAWilliams@armyspy.com,547-713-9729,"Sage Therapeutics, Inc.",,Webdesign,,15/05/2017,15/05/2017
+58,Cynthia Garza,PIMCO New York Municipal Income Fund III,JoaquinVRounds@fleckens.hu,870-327-2186,PIMCO New York Municipal Income Fund III,,Marketing,,23/05/2017,23/05/2017
+59,Cheryl Hardy,"Jamba, Inc.",MichaelACano@jourrapide.com,129-682-1174,"Jamba, Inc.",,Webdesign,,01/06/2017,01/06/2017
+60,Mary Ousley,"Red Robin Gourmet Burgers, Inc.",JohnEAvila@cuvox.de,993-732-2930,"Red Robin Gourmet Burgers, Inc.",,Marketing,,20/06/2017,20/06/2017
+61,Edna Duca,Teva Pharmaceutical Industries Limited,CharlesCWallace@dayrep.com,396-591-0219,Teva Pharmaceutical Industries Limited,,Webdesign,,20/06/2017,20/06/2017
+62,Mary Lawson,"Sun Bancorp, Inc.",GeorgeTFitzgerald@cuvox.de,764-610-0697,"Sun Bancorp, Inc.",,Marketing,,20/06/2017,20/06/2017
+63,James Molina,Pacific Special Acquisition Corp.,LaurenNPeterson@rhyta.com,207-537-9817,Pacific Special Acquisition Corp.,,Webdesign,,22/06/2017,22/06/2017
+64,Royce Kirk,Gabelli Global Small and Mid Cap Value Trust (The),JamesSHernandez@jourrapide.com,193-633-9551,Gabelli Global Small and Mid Cap Value Trust (The),,Marketing,,29/06/2017,29/06/2017
+65,Samuel Lytle,Till Capital Ltd.,MatthewSSteele@fleckens.hu,354-464-6726,Till Capital Ltd.,,Webdesign,,06/07/2017,06/07/2017
+66,Dennis Moore,voxeljet AG,AnnaRGrogan@gustr.com,931-477-4719,voxeljet AG,,Marketing,,11/07/2017,11/07/2017
+67,Timothy Thomas,Global X SuperDividend Alternatives ETF,KrystalEDavid@armyspy.com,405-475-7465,Global X SuperDividend Alternatives ETF,,Webdesign,,16/07/2017,16/07/2017
+68,Seymour Pena,Bank of America Corporation,BoydJHunt@dayrep.com,149-215-1344,Bank of America Corporation,,Marketing,,18/07/2017,18/07/2017
+69,Ginny Wages,"Hennessy Advisors, Inc.",AdamCDeal@teleworm.us,857-883-2714,"Hennessy Advisors, Inc.",,Webdesign,,19/07/2017,19/07/2017
+70,Ruby Evans,Dean Foods Company,HectorNWagner@einrot.com,280-722-9058,Dean Foods Company,,Marketing,,21/07/2017,21/07/2017
+71,Jennifer Williams,"VASCO Data Security International, Inc.",DeniseKSerra@dayrep.com,753-668-0588,"VASCO Data Security International, Inc.",,Webdesign,,26/07/2017,26/07/2017
+72,Joaquin Rounds,Fibrocell Science Inc,ScottAJamison@fleckens.hu,906-583-0282,Fibrocell Science Inc,,Marketing,,07/08/2017,07/08/2017
+73,Michael Cano,Regulus Therapeutics Inc.,LeeEDuffy@rhyta.com,339-299-7670,Regulus Therapeutics Inc.,,Webdesign,,12/08/2017,12/08/2017
+74,John Avila,PIMCO Income Strategy Fund,JenniferRBell@einrot.com,978-338-0082,PIMCO Income Strategy Fund,,Marketing,,14/08/2017,14/08/2017
+75,Charles Wallace,Invesco Municipal Income Opportunities Trust,JamesLGreen@teleworm.us,273-729-4939,Invesco Municipal Income Opportunities Trust,,Webdesign,,19/08/2017,19/08/2017
+76,George Fitzgerald,"John Wiley & Sons, Inc.",SherryFVargas@dayrep.com,549-386-4326,"John Wiley & Sons, Inc.",,Marketing,,21/08/2017,21/08/2017
+77,Lauren Peterson,Xcel Energy Inc.,JamesYAshbrook@superrito.com,391-854-8090,Xcel Energy Inc.,,Webdesign,,27/08/2017,27/08/2017
+78,James Hernandez,Invacare Corporation,TimothyATaylor@dayrep.com,528-333-0954,Invacare Corporation,,Marketing,,28/08/2017,28/08/2017
+79,Matthew Steele,"Integrated Device Technology, Inc.",JoanEAmbler@superrito.com,412-718-2053,"Integrated Device Technology, Inc.",,Webdesign,,03/09/2017,03/09/2017
+80,Anna Grogan,Invesco Municipal Income Opportunities Trust,SheilaENugent@fleckens.hu,202-394-6493,Invesco Municipal Income Opportunities Trust,,Marketing,,05/09/2017,05/09/2017
+81,Krystal David,Prudential Public Limited Company,AlvinCWagaman@armyspy.com,379-729-4063,Prudential Public Limited Company,,Webdesign,,06/09/2017,06/09/2017
+82,Boyd Hunt,"Electronics for Imaging, Inc.",DavidKBush@gustr.com,215-565-8730,"Electronics for Imaging, Inc.",,Marketing,,07/09/2017,07/09/2017
+83,Adam Deal,Unilever NV,StephanieLAguiar@armyspy.com,347-481-7497,Unilever NV,,Webdesign,,07/09/2017,07/09/2017
+84,Hector Wagner,"Pluristem Therapeutics, Inc.",OpalRSecor@einrot.com,544-471-0295,"Pluristem Therapeutics, Inc.",,Marketing,,09/09/2017,09/09/2017
+85,Denise Serra,NeoPhotonics Corporation,JoshuaKCole@armyspy.com,142-707-1566,NeoPhotonics Corporation,,Webdesign,,10/09/2017,10/09/2017
+86,Scott Jamison,"County Bancorp, Inc.",BrendaRDragon@cuvox.de,325-386-8625,"County Bancorp, Inc.",,Marketing,,14/09/2017,14/09/2017
+87,Lee Duffy,PowerShares S&P SmallCap Financials Portfolio,WarrenMDolin@dayrep.com,707-515-0139,PowerShares S&P SmallCap Financials Portfolio,,Webdesign,,01/10/2017,01/10/2017
+88,Jennifer Bell,PVH Corp.,EmmaPLedet@superrito.com,547-112-7517,PVH Corp.,,Marketing,,02/10/2017,02/10/2017
+89,James Green,"MainSource Financial Group, Inc.",RoseKGouin@fleckens.hu,921-201-2725,"MainSource Financial Group, Inc.",,Webdesign,,03/10/2017,03/10/2017
+90,Sherry Vargas,"Globus Medical, Inc.",SabrinaRChavez@fleckens.hu,896-776-9166,"Globus Medical, Inc.",,Marketing,,06/10/2017,06/10/2017
+91,James Ashbrook,First Trust United Kingdom AlphaDEX Fund,SuzanneTCruz@fleckens.hu,481-208-0514,First Trust United Kingdom AlphaDEX Fund,,Webdesign,,10/10/2017,10/10/2017
+92,Timothy Taylor,EPR Properties,GeorgeDMathis@armyspy.com,592-998-5231,EPR Properties,,Marketing,,11/10/2017,11/10/2017
+93,Joan Ambler,"The Meet Group, Inc.",HazelRArmstrong@dayrep.com,726-344-5068,"The Meet Group, Inc.",,Webdesign,,13/10/2017,13/10/2017
+94,Sheila Nugent,Almost Family Inc,MariaPAlexander@gustr.com,733-374-5220,Almost Family Inc,,Marketing,,14/10/2017,14/10/2017
+95,Alvin Wagaman,NovoCure Limited,GeorgeAJoiner@cuvox.de,817-619-8731,NovoCure Limited,,Webdesign,,17/10/2017,17/10/2017
+96,David Bush,Open Text Corporation,DonaldVPenton@dayrep.com,153-321-5009,Open Text Corporation,,Marketing,,23/10/2017,23/10/2017
+97,Stephanie Aguiar,QAD Inc.,JosephMMetzger@fleckens.hu,772-435-2908,QAD Inc.,,Webdesign,,31/10/2017,31/10/2017
+98,Opal Secor,"Ra Pharmaceuticals, Inc.",JohnMAdame@teleworm.us,470-629-8801,"Ra Pharmaceuticals, Inc.",,Marketing,,02/11/2017,02/11/2017
+99,Joshua Cole,"United Bancshares, Inc.",BrittanySDavis@gustr.com,916-963-0468,"United Bancshares, Inc.",,Webdesign,,06/11/2017,06/11/2017
+100,Brenda Dragon,ON Semiconductor Corporation,EddieDShook@fleckens.hu,431-139-3305,ON Semiconductor Corporation,,Marketing,,08/11/2017,08/11/2017
+101,Warren Dolin,VelocityShares Daily 2x VIX Short-Term ETN,EricJTaylor@gustr.com,779-533-0934,VelocityShares Daily 2x VIX Short-Term ETN,,Webdesign,,15/11/2017,15/11/2017
+102,Emma Ledet,National Energy Services Reunited Corp.,BrianHBains@dayrep.com,771-985-2148,National Energy Services Reunited Corp.,,Marketing,,21/11/2017,21/11/2017
+103,Rose Gouin,DTE Energy Company,FlorenceCHalladay@jourrapide.com,705-620-7657,DTE Energy Company,,Webdesign,,25/11/2017,25/11/2017
+104,Sabrina Chavez,CyberArk Software Ltd.,CharlesNMilligan@teleworm.us,357-603-3188,CyberArk Software Ltd.,,Marketing,,26/11/2017,26/11/2017
+105,Suzanne Cruz,John Hancock Income Securities Trust,EdwardLAverill@fleckens.hu,499-741-4966,John Hancock Income Securities Trust,,Webdesign,,27/11/2017,27/11/2017
+106,George Mathis,"Fidelity National Information Services, Inc.",DamianDWise@cuvox.de,786-491-1322,"Fidelity National Information Services, Inc.",,Marketing,,01/12/2017,01/12/2017
+107,Hazel Armstrong,"Lifetime Brands, Inc.",MariaTJennings@rhyta.com,421-144-3237,"Lifetime Brands, Inc.",,Webdesign,,04/12/2017,04/12/2017
+108,Maria Alexander,"KemPharm, Inc.",GeorgeRBarton@gustr.com,931-863-7775,"KemPharm, Inc.",,Marketing,,06/12/2017,06/12/2017
+109,George Joiner,"Meritor, Inc.",StellaBBoggs@dayrep.com,206-892-7251,"Meritor, Inc.",,Webdesign,,08/12/2017,08/12/2017
+110,Donald Penton,CNH Industrial N.V.,EugeneEGlick@einrot.com,963-833-6713,CNH Industrial N.V.,,Marketing,,10/12/2017,10/12/2017
+111,Joseph Metzger,Cowen Inc.,GordonMChichester@superrito.com,875-305-7254,Cowen Inc.,,Webdesign,,12/12/2017,12/12/2017
+112,John Adame,"Goldman Sachs Group, Inc. (The)",TracyVSpooner@rhyta.com,774-664-0697,"Goldman Sachs Group, Inc. (The)",,Marketing,,12/12/2017,12/12/2017
+113,Brittany Davis,Repros Therapeutics Inc.,MaryLRodriguez@gustr.com,225-835-5706,Repros Therapeutics Inc.,,Webdesign,,12/12/2017,12/12/2017
+114,Eddie Shook,Kentucky First Federal Bancorp,BlakeMMcDermott@jourrapide.com,834-738-6261,Kentucky First Federal Bancorp,,Marketing,,16/12/2017,16/12/2017
+115,Eric Taylor,"Blackrock MuniYield Quality Fund, Inc.",PaulaTEspinoza@dayrep.com,555-931-1136,"Blackrock MuniYield Quality Fund, Inc.",,Webdesign,,30/12/2017,30/12/2017
+116,Brian Bains,Intellipharmaceutics International Inc.,TiaraJCampagna@gustr.com,180-846-0727,Intellipharmaceutics International Inc.,,Marketing,,04/01/2018,04/01/2018
+117,Florence Halladay,"GoPro, Inc.",VanceAFinn@dayrep.com,114-517-5042,"GoPro, Inc.",,Webdesign,,10/01/2018,10/01/2018
+118,Charles Milligan,Regions Financial Corporation,PaulKFairley@dayrep.com,936-833-5737,Regions Financial Corporation,,Marketing,,12/01/2018,12/01/2018
+119,Edward Averill,"TerraForm Global, Inc.",KathleenNSimmons@cuvox.de,315-610-0352,"TerraForm Global, Inc.",,Webdesign,,16/01/2018,16/01/2018
+120,Damian Wise,California Resources Corporation,JohnESoto@fleckens.hu,704-568-5548,California Resources Corporation,,Marketing,,17/01/2018,17/01/2018
+121,Maria Jennings,Loews Corporation,SusanJMorton@superrito.com,539-334-4274,Loews Corporation,,Webdesign,,22/01/2018,22/01/2018
+122,George Barton,"Loral Space and Communications, Inc.",DorothyJHudgins@cuvox.de,893-966-3620,"Loral Space and Communications, Inc.",,Marketing,,22/01/2018,22/01/2018
+123,Stella Boggs,Omeros Corporation,GraceTSmith@cuvox.de,659-639-3995,Omeros Corporation,,Webdesign,,24/01/2018,24/01/2018
+124,Eugene Glick,"Orion Energy Systems, Inc.",KelvinCBrown@fleckens.hu,140-266-0852,"Orion Energy Systems, Inc.",,Marketing,,25/01/2018,25/01/2018
+125,Gordon Chichester,Capstone Turbine Corporation,TinaSKissell@jourrapide.com,739-310-9410,Capstone Turbine Corporation,,Webdesign,,28/01/2018,28/01/2018
+126,Tracy Spooner,Owens Corning Inc,CarlSRuiz@armyspy.com,980-718-0811,Owens Corning Inc,,Marketing,,29/01/2018,29/01/2018
+127,Mary Rodriguez,ClearBridge Energy MLP Opportunity Fund Inc.,TrishaEWilliams@fleckens.hu,318-633-2854,ClearBridge Energy MLP Opportunity Fund Inc.,,Webdesign,,12/02/2018,12/02/2018
+128,Blake McDermott,"Tyson Foods, Inc.",JoseEWright@dayrep.com,606-542-2561,"Tyson Foods, Inc.",,Marketing,,16/02/2018,16/02/2018
+129,Paula Espinoza,"Dr Pepper Snapple Group, Inc",TammyCGoff@rhyta.com,538-938-1409,"Dr Pepper Snapple Group, Inc",,Webdesign,,16/02/2018,16/02/2018
+130,Tiara Campagna,Dividend and Income Fund,JeanMCortez@fleckens.hu,410-831-9201,Dividend and Income Fund,,Marketing,,19/02/2018,19/02/2018
+131,Vance Finn,Adaptimmune Therapeutics plc,WilliamVGray@teleworm.us,398-645-9064,Adaptimmune Therapeutics plc,,Webdesign,,19/02/2018,19/02/2018
+132,Paul Fairley,PowerShares Dividend Achievers Portfolio,DustinKAustin@gustr.com,539-520-7413,PowerShares Dividend Achievers Portfolio,,Marketing,,23/02/2018,23/02/2018
+133,Kathleen Simmons,"NextEra Energy, Inc.",DavidFRichmond@einrot.com,255-946-0138,"NextEra Energy, Inc.",,Webdesign,,24/02/2018,24/02/2018
+134,John Soto,"Pinnacle Entertainment, Inc.",DanielAChancey@dayrep.com,592-560-1600,"Pinnacle Entertainment, Inc.",,Marketing,,27/02/2018,27/02/2018
+135,Susan Morton,ENDRA Life Sciences Inc.,MichelleDMock@superrito.com,996-271-7263,ENDRA Life Sciences Inc.,,Webdesign,,04/03/2018,04/03/2018
+136,Dorothy Hudgins,ON Semiconductor Corporation,AnitaMOliveras@rhyta.com,761-477-5115,ON Semiconductor Corporation,,Marketing,,13/03/2018,13/03/2018
+137,Grace Smith,Sotherly Hotels Inc.,ChadKSun@dayrep.com,294-228-3932,Sotherly Hotels Inc.,,Webdesign,,14/03/2018,14/03/2018
+138,Kelvin Brown,A.H. Belo Corporation,SuzanneMCharbonneau@rhyta.com,168-888-4409,A.H. Belo Corporation,,Marketing,,18/03/2018,18/03/2018
+139,Tina Kissell,"Catalyst Pharmaceuticals, Inc.",CharlesSMullis@rhyta.com,195-910-7574,"Catalyst Pharmaceuticals, Inc.",,Webdesign,,20/03/2018,20/03/2018
+140,Carl Ruiz,Yandex N.V.,RandalMMoss@cuvox.de,511-940-3062,Yandex N.V.,,Marketing,,26/03/2018,26/03/2018
+141,Trisha Williams,Active Alts Contrarian ETF,KateAMiner@gustr.com,232-739-4960,Active Alts Contrarian ETF,,Webdesign,,27/03/2018,27/03/2018
+142,Jose Wright,"SandRidge Energy, Inc.",SusanCHansen@jourrapide.com,186-143-7692,"SandRidge Energy, Inc.",,Marketing,,29/03/2018,29/03/2018
+143,Tammy Goff,"TRACON Pharmaceuticals, Inc.",RyanMMerrill@fleckens.hu,955-110-3459,"TRACON Pharmaceuticals, Inc.",,Webdesign,,31/03/2018,31/03/2018
+144,Jean Cortez,NASDAQ TEST STOCK,JeanJFarnsworth@armyspy.com,681-560-6334,NASDAQ TEST STOCK,,Marketing,,01/04/2018,01/04/2018
+145,William Gray,"Lydall, Inc.",JoePBeeman@armyspy.com,399-854-3603,"Lydall, Inc.",,Webdesign,,02/04/2018,02/04/2018
+146,Dustin Austin,Resolute Forest Products Inc.,DonaldJCampbell@teleworm.us,404-307-9600,Resolute Forest Products Inc.,,Marketing,,02/04/2018,02/04/2018
+147,David Richmond,Global X Conscious Companies ETF,JonathanFPark@cuvox.de,269-215-1630,Global X Conscious Companies ETF,,Webdesign,,05/04/2018,05/04/2018
+148,Daniel Chancey,Barington/Hilco Acquisition Corp.,ToddAUnger@cuvox.de,638-255-9721,Barington/Hilco Acquisition Corp.,,Marketing,,13/04/2018,13/04/2018
+149,Michelle Mock,Quaker Chemical Corporation,JoePDodge@cuvox.de,620-579-8668,Quaker Chemical Corporation,,Webdesign,,19/04/2018,19/04/2018
+150,Anita Oliveras,KLX Inc.,TheodoreSAbraham@cuvox.de,455-391-5587,KLX Inc.,,Marketing,,24/04/2018,24/04/2018
+151,Chad Sun,MFS Charter Income Trust,KristenKClay@superrito.com,413-463-7990,MFS Charter Income Trust,,Webdesign,,27/04/2018,27/04/2018
+152,Suzanne Charbonneau,"Codexis, Inc.",NedNThomas@einrot.com,573-556-3391,"Codexis, Inc.",,Marketing,,29/04/2018,29/04/2018
+153,Charles Mullis,"Rockwell Automation, Inc.",DeloresCEmmer@fleckens.hu,970-371-0264,"Rockwell Automation, Inc.",,Webdesign,,30/04/2018,30/04/2018
+154,Randal Moss,"Nike, Inc.",HelenGMills@armyspy.com,493-772-0132,"Nike, Inc.",,Marketing,,04/05/2018,04/05/2018
+155,Kate Miner,"Westar Energy, Inc.",DavidSTaylor@fleckens.hu,424-970-9416,"Westar Energy, Inc.",,Webdesign,,08/05/2018,08/05/2018
+156,Susan Hansen,Alliance National Municipal Income Fund Inc,RachellePBerry@teleworm.us,709-598-4658,Alliance National Municipal Income Fund Inc,,Marketing,,09/05/2018,09/05/2018
+157,Ryan Merrill,"Texas Capital Bancshares, Inc.",JoseLReed@cuvox.de,849-833-1908,"Texas Capital Bancshares, Inc.",,Webdesign,,10/05/2018,10/05/2018
+158,Jean Farnsworth,"AeroVironment, Inc.",MariaDLeary@fleckens.hu,835-707-9691,"AeroVironment, Inc.",,Marketing,,10/05/2018,10/05/2018
+159,Joe Beeman,"FCB Financial Holdings, Inc.",WilmaWWilmot@gustr.com,608-575-3061,"FCB Financial Holdings, Inc.",,Webdesign,,11/05/2018,11/05/2018
+160,Donald Campbell,"Grifols, S.A.",BennettMQuinlan@teleworm.us,279-716-9331,"Grifols, S.A.",,Marketing,,12/05/2018,12/05/2018
+161,Jonathan Park,"PS Business Parks, Inc.",JustinTThompson@gustr.com,125-347-3515,"PS Business Parks, Inc.",,Webdesign,,13/05/2018,13/05/2018
+162,Todd Unger,FORM Holdings Corp.,LouisTDay@jourrapide.com,758-519-4782,FORM Holdings Corp.,,Marketing,,20/05/2018,20/05/2018
+163,Joe Dodge,F.N.B. Corporation,CheryRRogers@dayrep.com,173-126-9088,F.N.B. Corporation,,Webdesign,,25/05/2018,25/05/2018
+164,Theodore Abraham,New Home Company Inc. (The),TomVGreen@armyspy.com,914-877-0496,New Home Company Inc. (The),,Marketing,,27/05/2018,27/05/2018
+165,Kristen Clay,Federal Agricultural Mortgage Corporation,MillieCRybicki@superrito.com,229-409-9223,Federal Agricultural Mortgage Corporation,,Webdesign,,31/05/2018,31/05/2018
+166,Ned Thomas,"TC PipeLines, LP",MaJDaye@superrito.com,496-369-7268,"TC PipeLines, LP",,Marketing,,02/06/2018,02/06/2018
+167,Delores Emmer,"Aoxin Tianli Group, Inc.",PhyllisRWard@jourrapide.com,697-335-3991,"Aoxin Tianli Group, Inc.",,Webdesign,,04/06/2018,04/06/2018
+168,Helen Mills,"C.R. Bard, Inc.",PatrickMHill@fleckens.hu,955-201-3749,"C.R. Bard, Inc.",,Marketing,,07/06/2018,07/06/2018
+169,David Taylor,Stratus Properties Inc.,LindaDBarrett@rhyta.com,383-112-7260,Stratus Properties Inc.,,Webdesign,,13/06/2018,13/06/2018
+170,Rachelle Berry,Voya Natural Resources Equity Income Fund,WilliamJRoberts@cuvox.de,484-406-2239,Voya Natural Resources Equity Income Fund,,Marketing,,18/06/2018,18/06/2018
+171,Jose Reed,Fifth Street Senior Floating Rate Corp.,VeronicaRAble@einrot.com,903-909-0013,Fifth Street Senior Floating Rate Corp.,,Webdesign,,23/06/2018,23/06/2018
+172,Maria Leary,"Emergent Biosolutions, Inc.",RaquelRSmith@cuvox.de,622-380-5314,"Emergent Biosolutions, Inc.",,Marketing,,25/06/2018,25/06/2018
+173,Wilma Wilmot,BB&T Corporation,AnnetteHWhitley@armyspy.com,587-521-9169,BB&T Corporation,,Webdesign,,26/06/2018,26/06/2018
+174,Bennett Quinlan,Pingtan Marine Enterprise Ltd.,KarenLMoorhead@dayrep.com,209-634-4058,Pingtan Marine Enterprise Ltd.,,Marketing,,27/06/2018,27/06/2018
+175,Justin Thompson,Calamos Global Dynamic Income Fund,JonathanMManning@superrito.com,498-526-9855,Calamos Global Dynamic Income Fund,,Webdesign,,03/07/2018,03/07/2018
+176,Louis Day,"GNC Holdings, Inc.",WilliamBDeherrera@teleworm.us,627-299-9139,"GNC Holdings, Inc.",,Marketing,,11/07/2018,11/07/2018
+177,Chery Rogers,"Kayne Anderson Midstream Energy Fund, Inc",DavidJHuskey@superrito.com,764-894-8971,"Kayne Anderson Midstream Energy Fund, Inc",,Webdesign,,22/07/2018,22/07/2018
+178,Tom Green,"Colony NorthStar, Inc.",ErnestMHafley@einrot.com,743-148-9059,"Colony NorthStar, Inc.",,Marketing,,06/08/2018,06/08/2018
+179,Millie Rybicki,PowerShares Global Water Portfolio,SeanHSkillings@gustr.com,529-183-1824,PowerShares Global Water Portfolio,,Webdesign,,06/08/2018,06/08/2018
+180,Ma Daye,Nuveen Municipal 2021 Target Term Fund,DavidHBrooks@rhyta.com,187-338-3098,Nuveen Municipal 2021 Target Term Fund,,Marketing,,13/08/2018,13/08/2018
+181,Phyllis Ward,Royal Bank Scotland plc (The),WilliamNDrysdale@fleckens.hu,368-227-6471,Royal Bank Scotland plc (The),,Webdesign,,14/08/2018,14/08/2018
+182,Patrick Hill,"Selective Insurance Group, Inc.",WilliamPBowers@cuvox.de,251-650-0636,"Selective Insurance Group, Inc.",,Marketing,,15/08/2018,15/08/2018
+183,Linda Barrett,"Groupon, Inc.",StanleyDRosenstein@einrot.com,671-947-9394,"Groupon, Inc.",,Webdesign,,04/09/2018,04/09/2018
+184,William Roberts,Canadian Solar Inc.,PaulFRhem@rhyta.com,176-222-7026,Canadian Solar Inc.,,Marketing,,04/09/2018,04/09/2018
+185,Veronica Able,HSBC Holdings plc,BarbaraRDoggett@armyspy.com,420-788-7679,HSBC Holdings plc,,Webdesign,,05/09/2018,05/09/2018
+186,Raquel Smith,DURECT Corporation,RaulPBuckner@teleworm.us,988-832-1574,DURECT Corporation,,Marketing,,09/09/2018,09/09/2018
+187,Annette Whitley,"Westar Energy, Inc.",LyndaTFerrel@dayrep.com,971-881-9343,"Westar Energy, Inc.",,Webdesign,,13/09/2018,13/09/2018
+188,Karen Moorhead,"DHT Holdings, Inc.",JamesJMorel@gustr.com,696-946-7169,"DHT Holdings, Inc.",,Marketing,,14/09/2018,14/09/2018
+189,Jonathan Manning,Pimco New York Municipal Income Fund II,ScottMHall@gustr.com,666-442-2626,Pimco New York Municipal Income Fund II,,Webdesign,,19/09/2018,19/09/2018
+190,William Deherrera,Yelp Inc.,MarkWPrice@fleckens.hu,460-116-7515,Yelp Inc.,,Marketing,,20/09/2018,20/09/2018
+191,David Huskey,Double Eagle Acquisition Corp.,EvelynHSmith@gustr.com,160-712-0495,Double Eagle Acquisition Corp.,,Webdesign,,21/09/2018,21/09/2018
+192,Ernest Hafley,"Xencor, Inc.",FrankFTurner@armyspy.com,278-499-4048,"Xencor, Inc.",,Marketing,,21/09/2018,21/09/2018
+193,Sean Skillings,"Ohr Pharmaceuticals, Inc.",RaymondPMims@teleworm.us,193-624-7785,"Ohr Pharmaceuticals, Inc.",,Webdesign,,24/09/2018,24/09/2018
+194,David Brooks,Polaris Industries Inc.,RonaldKCook@jourrapide.com,675-374-2768,Polaris Industries Inc.,,Marketing,,24/09/2018,24/09/2018
+195,William Drysdale,iShares S&P/Citigroup 1-3 Year International Treasury Bond Fun,SandraRJohnson@armyspy.com,915-463-4663,iShares S&P/Citigroup 1-3 Year International Treasury Bond Fun,,Webdesign,,27/09/2018,27/09/2018
+196,William Bowers,Altisource Residential Corporation,AndreaLHiggins@superrito.com,740-577-2042,Altisource Residential Corporation,,Marketing,,30/09/2018,30/09/2018
+197,Stanley Rosenstein,iPath US Treasury 10-year Bear ETN,DennisMBliss@einrot.com,647-556-4881,iPath US Treasury 10-year Bear ETN,,Webdesign,,02/10/2018,02/10/2018
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
