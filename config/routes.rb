@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
   
+  post 'sms' => 'twilio#sms'
+  get 'sms' => 'twilio#sms'
   # resources :comments
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   get '/residential' =>'home#residential'
