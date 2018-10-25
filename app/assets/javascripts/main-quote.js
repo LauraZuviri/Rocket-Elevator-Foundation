@@ -492,5 +492,4 @@ $(document).ready(function () {
             };
         };
     };
-
 });
