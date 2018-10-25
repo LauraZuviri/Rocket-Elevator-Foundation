@@ -11,15 +11,21 @@ gem 'mysql2'
 
 # Use Postregsql as the database for Warehouse
 gem 'pg', '~> 1.1', '>= 1.1.3'
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> bc6b65c63a465c6f251543d74fac9b39b385258e
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'ibm_watson'
 gem 'activesupport'
  gem 'eventmachine'
  gem 'websocket-client-simple'
 #gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+<<<<<<< HEAD
 
+=======
+>>>>>>> bc6b65c63a465c6f251543d74fac9b39b385258e
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'

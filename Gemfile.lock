@@ -403,7 +403,14 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise (~> 4.2)
   dropbox_api
+<<<<<<< HEAD
   eventmachine
+=======
+  figaro
+ eventmachine
+  figaro (~> 1.1, >= 1.1.1)
+  ibm_watson
+>>>>>>> bc6b65c63a465c6f251543d74fac9b39b385258e
   figaro
   ibm_watson
   jbuilder (~> 2.5)
