@@ -12,17 +12,14 @@ gem 'mysql2'
 # Use Postregsql as the database for Warehouse
 gem 'pg', '~> 1.1', '>= 1.1.3'
 
-<<<<<<< HEAD
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'ibm_watson'
 gem 'activesupport'
  gem 'eventmachine'
  gem 'websocket-client-simple'
-=======
 #gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 
->>>>>>> 9fd97a682fd301973d6c918eb35b7f96adeeac68
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -36,7 +33,6 @@ gem 'rails_admin', '~> 1.3'
 gem 'paper_trail'
 gem 'jquery-rails'
 gem 'watson-ruby'
-gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'slack-ruby-client'
 gem 'async-websocket'
 # Use devise for Authentication
