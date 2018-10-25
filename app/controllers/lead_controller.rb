@@ -27,7 +27,7 @@ class LeadController < ApplicationController
         lead.save!
          lead = Lead.find(lead.id)
          unless lead.file_attachment.nil?
-           
+           s
          lead.file_attachment = nil
          lead.save
          end
