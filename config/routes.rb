@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
   
+  post 'sms' => 'twilio#sms'
+  get 'sms' => 'twilio#sms'
   # resources :comments
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   get '/residential' =>'home#residential'
@@ -14,6 +16,7 @@ Rails.application.routes.draw do
   post '/new_quote' =>'quote#new_quote'
   post '/new_lead' =>'lead#new_lead'
   get '/chart' =>'charts#chart'
+  get '/dropbox' =>'lead#index'
  
   devise_for :users, :controllers => { registrations: 'registrations' }
   root 'home#index'
