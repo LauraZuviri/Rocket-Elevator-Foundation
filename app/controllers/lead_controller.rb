@@ -1,4 +1,6 @@
 class LeadController < ApplicationController
+    require 'sendgrid-ruby'
+    include SendGrid
 
     def index
          
@@ -26,6 +28,36 @@ class LeadController < ApplicationController
         lead.valid?
         p lead.errors
         lead.save!
+
+        data = JSON.parse("{
+                \"personalizations\": [
+                    {
+                    \"to\": [
+                        {
+                    \"email\": \"#{lead.email}\"
+                        }
+                    ],
+                    \"dynamic_template_data\": {
+                        \"subject\": \"Confirmation\",
+                        \"FullName\": \"#{lead.full_name}\",
+                        \"ProjectName\": \"#{lead.project_name}\"
+                        }
+                    }
+                ],
+                \"from\": {
+                    \"email\": \"adm@rocketelevators.ca\"
+                },
+                \"template_id\": \"d-a764a69415a54d3db616f1aab3e501a7\"
+            }")
+            sg = SendGrid::API.new(api_key: ENV['SENDGRID_KEY'])
+            begin
+                response = sg.client.mail._("send").post(request_body: data)
+            rescue Exception => e
+                puts e.message
+            end
+        
+
+    end
 
          lead = Lead.find(lead.id)
         unless lead.file_attachment.nil?
