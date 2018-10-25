@@ -33,7 +33,10 @@ namespace :import do
     CSV.foreach(filename, headers: true) do |row|
         user = User.where(email: row["ContactEmail"]).first
         address = Address.where(street_address: row["StreetAddress"]).first
+        puts row["StreetAddress"]
+        if address
         customer = Customer.create!(user_id: user.id, business_name: row["BusinessName"], address_id: address.id, contact_full_name: row["ContactName"], contact_phone: row["ContactTelephone"], contact_email: row["ContactEmail"], business_description: row["CompanyDescription"], technician_full_name: row["TechnicianName"], technician_phone: row["TechnicianTelephone"], technician_email: row["TechnicianEmail"], created_at: row["Created At"], updated_at: row["Updated At"])
+        end
     end
   end
 
@@ -45,8 +48,10 @@ namespace :import do
     CSV.foreach(filename, headers: true) do |row|
         customerID = Customer.order('RAND()').first.id
         address = Address.where(street_address: row["StreetAddress"]).first
-        building = Building.create!(customer_id: customerID, address_id: address.id, administrator_full_name: row["Adm Name"], administrator_phone: row["Adm Phone"], administrator_email: row["Adm Email"], technician_full_name: row["TechnicianName"], technician_phone: row["TechnicianTelephone"], technician_email: row["TechnicianEmail"], created_at: row["Created At"], updated_at: row["Updated At"], building_name: row["Building Name"])
+        if address
+         building = Building.create!(customer_id: customerID, address_id: address.id, administrator_full_name: row["Adm Name"], administrator_phone: row["Adm Phone"], administrator_email: row["Adm Email"], technician_full_name: row["TechnicianName"], technician_phone: row["TechnicianTelephone"], technician_email: row["TechnicianEmail"], created_at: row["Created At"], updated_at: row["Updated At"], building_name: row["Building Name"])
     end
+  end
   end
 
   task batteries: :environment do
