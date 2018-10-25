@@ -405,7 +405,7 @@ DEPENDENCIES
   devise (~> 4.2)
   dropbox_api
   figaro
-  eventmachine
+ eventmachine
   figaro (~> 1.1, >= 1.1.1)
   ibm_watson
   figaro
