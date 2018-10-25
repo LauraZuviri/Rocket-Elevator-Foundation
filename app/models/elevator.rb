@@ -17,7 +17,7 @@ class Elevator < ApplicationRecord
 
 def elevator_validate
   if self.status_changed? then
-    @client = Twilio::REST::Client.new(ENV["account_sid"], ENV["auth_token"])
+    @client = Twilio::REST::Client.new("ACa050d82e7b00d3126f132905bec324bf", "dd8acec7592b959062e6c2a8ca51d992")
     message = @client.messages
       .create(
         from: '+13473703502',
