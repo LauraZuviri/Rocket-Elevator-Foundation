@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get '/residential' =>'home#residential'
   get '/commercial' =>'home#commercial'
   get '/quote' =>'quote#quote'
+  get '/maps/location' =>'maps#location'
   get '/index-RocketElevators.html' =>'home#index'
   get '/index-rocketElevators-residential.html' => 'home#residential'
   get '/index-rocketElevators-commercial.html' => 'home#commercial'

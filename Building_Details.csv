@@ -1,13 +1,13 @@
 Information key,Value,Id
 Built_Year,2017,1
-Number of Floors,7,1
+Number of Floors,57,1
 Max Occupency,656,2
 Architecture,Beaux Arts,3
 Built_Year,1999,3
 Architecture,Italianate,4
 Max Occupency,900,4
 Architecture,Postmodern,5
-Number of Floors,200,5
+Number of Floors,89,5
 Construction Company,Bird Construction,5
 Electricity Company,Ontario Electrical Construction Company,6
 Architecture,Art Deco,6
@@ -16,7 +16,7 @@ Construction Company,Ledcor Group,8
 Architecture,Art Nouveau,8
 Internet provider,Videotron,9
 Architecture,Bauhaus,10
-Number of Floors,12,12
+Number of Floors,29,12
 Built_Year,1945,12
 Architecture,Futurism,13
 Architecture,Constructivism,14
@@ -36,3 +36,11 @@ Built_Year,1687,22
 Electricity Company,"CEL Electric Home, Emery Electric Ltd",23
 Built_Year,1992,23
 Construction Company,Surespan,23
+Number of Floors,37,3
+Number of Floors,56,10
+Number of Floors,29,18
+Number of Floors,62,22
+Number of Floors,43,20
+Number of Floors,23,16
+Number of Floors,36,11
+Number of Floors,68,9

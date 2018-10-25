@@ -19,6 +19,14 @@ RailsAdmin.config do |config|
   end
   config.current_user_method(&:current_user)
   config.label_methods << :full_name
+
+
+  config.navigation_static_label = "Admin API"
+
+  config.navigation_static_links = {
+    'Buildings Locations' => '/maps/location'
+  }
+
   ## == Cancan ==
   # config.authorize_with :cancan
 
@@ -36,7 +44,7 @@ RailsAdmin.config do |config|
 
   config.actions do
     dashboard                     # mandatory
-    index                         # mandatory
+    index                         # mandatory                   
     new
     export
     bulk_delete
