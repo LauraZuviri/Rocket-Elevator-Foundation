@@ -13,8 +13,10 @@ gem 'mysql2'
 gem 'pg', '~> 1.1', '>= 1.1.3'
 
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
-
-
+gem 'ibm_watson'
+gem 'activesupport'
+ gem 'eventmachine'
+ gem 'websocket-client-simple'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -23,11 +25,14 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
-
+gem 'twilio-ruby', '~> 5.15.1'
 gem 'rails_admin', '~> 1.3'
-
+gem 'paper_trail'
 gem 'jquery-rails'
-
+gem 'watson-ruby'
+gem 'figaro', '~> 1.1', '>= 1.1.1'
+gem 'slack-ruby-client'
+gem 'async-websocket'
 # Use devise for Authentication
 gem 'devise', '~> 4.2'
 

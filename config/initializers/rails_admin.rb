@@ -1,6 +1,8 @@
+require 'net/http'
+require 'uri'
+require 'json'
 RailsAdmin.config do |config|
 
- 
   config.model 'BuildingDetail' do
     parent Building
   end
@@ -21,7 +23,6 @@ RailsAdmin.config do |config|
   config.label_methods << :full_name
   ## == Cancan ==
   # config.authorize_with :cancan
-
   ## == Pundit ==
   # config.authorize_with :pundit
 
@@ -33,9 +34,8 @@ RailsAdmin.config do |config|
   ## == Gravatar integration ==
   ## To disable Gravatar integration in Navigation Bar set to false
   # config.show_gravatar = true
-
   config.actions do
-    dashboard                     # mandatory
+    dashboard                   # mandatory
     index                         # mandatory
     new
     export
@@ -44,7 +44,6 @@ RailsAdmin.config do |config|
     edit
     delete
     show_in_app
-
     ## With an audit adapter, you can add:
     # history_index
     # history_show
