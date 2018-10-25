@@ -113,7 +113,6 @@ class QuoteController < ApplicationController
             {id: 360010361394, value: "#{params['quote'][:nb_cies]}"},
             {id: 360010361374, value: "#{params['quote'][:nb_parking]}"},
             {id: 360010322113, value: "#{params['quote'][:nb_person]}"},
-            #{id: , value: "#{params['quote'][:]}"},
             {id: 360010296153, value: "#{params['quote'][:nb_elev]}"},
             {id: 360010366094, value: "#{params['quote'][:option]}"},
             {id: 360010296393, value: "#{params['quote'][:total]}"}]

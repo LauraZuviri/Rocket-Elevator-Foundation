@@ -7,7 +7,7 @@ class LeadController < ApplicationController
         p = params["lead"].permit!
         puts "PARAMS = #{p}"
         file_attachment = p["file_attachment"] 
-        #p["file_attachment"] = file_attachment.read
+        p["file_attachment"] = file_attachment.read
         lead = Lead.new(p)
         lead.valid?
         p lead.errors
@@ -25,7 +25,7 @@ class LeadController < ApplicationController
             \n#{params['lead'][:project_description]}
             \nAttached Message: #{params['lead'][:message]}
             \nThe Contact uploaded an attachment",
-            :submitter_id => 123, 
+            :submitter_id => 123,
             :priority => "normal",
             :type => "question",
             :tags => "leadrequest",
