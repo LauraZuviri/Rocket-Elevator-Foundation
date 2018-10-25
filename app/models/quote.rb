@@ -1,8 +1,3 @@
 class Quote < ApplicationRecord
-
-
-
-
-
     
 end
