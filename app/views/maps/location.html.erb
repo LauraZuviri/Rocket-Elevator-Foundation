@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Marker Clustering</title>
+    
+    <style>
+      /* Defining Style */
+        #map{
+        height: 100%;
+    }
+        #infowindow{
+        padding: 10px;
+    }
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+
+
+  <div id="map"></div>
+  <script>
+
+    var locations = [];
+
+    <% @location_list.each do |location| %>
+      locations.push( {name: "<%= location[:name] %>",
+      lat: <%= location[:lat] %>,
+      lng: <%= location[:lng] %>,
+      address: "<%= location[:address] %>",
+      batteries: "<%= location[:batteries] %>",
+      columns: "<%= location[:columns] %>",
+      elevators: "<%= location[:elevators] %>",
+      customer: "<%= location[:customer] %>",
+      technician: "<%= location[:technician] %>",
+      floors: "<%= location[:floors] %>"});
+    <% end %> 
+
+function initMap() {
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 5,
+    center: {
+      lat: 42.12,
+      lng: -80.08
+    }
+  });
+
+  var infoWin = new google.maps.InfoWindow({
+    maxWidth: 220
+  });
+
+  
+  var icon = {
+    url: "<%= image_path 'rocket_map.png' %>",
+    scaledSize: new google.maps.Size(30, 42),
+    origin: new google.maps.Point(0, 0),
+    anchor: new google.maps.Point(15, 40)
+  };
+
+  // Creating Markers
+    var markers = locations.map(function(location, i) {
+    var marker = new google.maps.Marker({
+      position: location,
+      icon:     icon
+    });
+
+    // Creating content for InfoWindow
+    var html = '<h3>' + location.name  + '</h3>' +
+    '<b>Address: </b>' + location.address + '</br>' + '</br>' +
+    '<b>Customer Name: </b>' + location.customer + '</br>' +
+    '<b>Technician Contact: </b>' + location.technician + '</br>' +
+    '<b>Number of Floors: </b>' + location.floors + '</br>' + '</br>' +
+    '<b>Nb of Batteries: </b>' + location.batteries + '</br>' +
+    '<b>Nb of Columns: </b>' + location.columns + '</br>' +
+    '<b>Nb of Elevators: </b>' + location.elevators;
+
+    google.maps.event.addListener(marker, 'mouseover', function(evt) {
+        infoWin.setContent(html);
+        infoWin.open(map, marker);
+    })
+        return marker;
+
+    });
+  
+
+    // Marker clusterer to manage the markers
+    var markerCluster = new MarkerClusterer(map, markers, {
+    imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+    });
+}
+
+    </script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDflmvrNNydR4eEXx1MlxieO8OJGysUwXI&callback=initMap">
+    </script>
+  </body>
+</html>
+

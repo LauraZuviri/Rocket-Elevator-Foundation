@@ -7,7 +7,9 @@ class Battery < ApplicationRecord
         [['Active', 0],['Inactive',1],['Alarm',2]]
   end
   def name
-    "##{self.id} (#{self.building.building_name})"
+     
+    "##{self.id} (#{self.building.building_name})" unless new_record?
+
   end
 
   belongs_to :building

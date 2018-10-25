@@ -12,6 +12,7 @@ gem 'mysql2'
 # Use Postregsql as the database for Warehouse
 gem 'pg', '~> 1.1', '>= 1.1.3'
 
+
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'ibm_watson'
 gem 'activesupport'
