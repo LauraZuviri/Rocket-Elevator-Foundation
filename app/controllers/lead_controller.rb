@@ -1,8 +1,5 @@
 class LeadController < ApplicationController
 
-
-    def index    
-
     def index
          
         client = DropboxApi::Client.new('C8Eg7_xlTzAAAAAAAAAAEsz6c89hSWEeULmvVUnlaCA0vo_Rk4D4k8DSghIWq6Vy')
@@ -30,13 +27,12 @@ class LeadController < ApplicationController
         p lead.errors
         lead.save!
 
-
          lead = Lead.find(lead.id)
-         unless lead.file_attachment.nil?
-           s
+        unless lead.file_attachment.nil?
+        
          lead.file_attachment = nil
          lead.save
-         end
+        end
 
 
         # authenticator = DropboxApi::Authenticator.new("ub3wekvilx0yamm", "bonh62uwfvj6i9e")
@@ -51,9 +47,6 @@ class LeadController < ApplicationController
         # result = client.list_folder "/sample_folder"
         # result.entries
         # result.has_more?
-
-
-    end
 
 
 
