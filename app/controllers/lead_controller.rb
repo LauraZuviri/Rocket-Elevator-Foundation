@@ -12,9 +12,10 @@ class LeadController < ApplicationController
     def new_lead
         p = params["lead"].permit!
         client = DropboxApi::Client.new('C8Eg7_xlTzAAAAAAAAAAMduh226EdjZy_X_pVqXkbOUenDBMOVpQwo0zhF9sr8bC')
-        file_attachment = p("file_attachment") 
+        file_attachment = params["lead"]["file_attachment"]
        original_file_name = file_attachment.original_filename 
        p["original_file_name"] = original_file_name
+       p["file_attachment"] = file_attachment.read
         # if file_attachment
         #     client.upload("/rocket_elevators/#{params["lead"]["full_name"]}/#{File.basename(original_file_name, '.*')}_#{Time.now.to_i}#{File.extname(original_file_name)}", file_attachment.read)
         # end
