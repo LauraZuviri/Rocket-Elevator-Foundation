@@ -10,6 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+ActiveRecord::Schema.define(version: 2018_10_26_174334) do
+
   create_table "addresses", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "address_type"
     t.string "status"
@@ -62,8 +64,6 @@
     t.string "technician_phone"
     t.string "technician_email"
     t.string "building_name"
-    t.float "latitude"
-    t.float "longitude"
     t.index ["address_id"], name: "index_buildings_on_address_id"
     t.index ["customer_id"], name: "index_buildings_on_customer_id"
   end
@@ -188,7 +188,7 @@
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
-  create_table "versions", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+  create_table "versions", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci", force: :cascade do |t|
     t.string "item_type", limit: 191, null: false
     t.integer "item_id", null: false
     t.string "event", null: false
