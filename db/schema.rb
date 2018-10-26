@@ -10,7 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_23_114831) do
+ActiveRecord::Schema.define(version: 2018_10_26_174334) do
+
+  create_table "Addresses", id: false, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.text "Address Type"
+    t.text "Status"
+    t.text "Entity"
+    t.text "StreetAddress"
+    t.text "Suite or app"
+    t.text "City"
+    t.text "State"
+    t.text "ZipCode"
+    t.text "Country"
+    t.text "Notes"
+  end
 
   create_table "addresses", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "address_type"
@@ -93,7 +106,9 @@ ActiveRecord::Schema.define(version: 2018_10_23_114831) do
     t.string "technician_email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "lead_id"
     t.index ["address_id"], name: "index_customers_on_address_id"
+    t.index ["lead_id"], name: "index_customers_on_lead_id"
     t.index ["user_id"], name: "index_customers_on_user_id"
   end
 
@@ -125,7 +140,6 @@ ActiveRecord::Schema.define(version: 2018_10_23_114831) do
   end
 
   create_table "leads", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.bigint "customer_id"
     t.string "full_name"
     t.string "company_name"
     t.string "email"
@@ -137,7 +151,7 @@ ActiveRecord::Schema.define(version: 2018_10_23_114831) do
     t.binary "file_attachment", limit: 16777215
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["customer_id"], name: "index_leads_on_customer_id"
+    t.string "original_file_name"
   end
 
   create_table "quotes", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -204,8 +218,8 @@ ActiveRecord::Schema.define(version: 2018_10_23_114831) do
   add_foreign_key "buildings", "customers"
   add_foreign_key "columns", "batteries"
   add_foreign_key "customers", "addresses"
+  add_foreign_key "customers", "leads"
   add_foreign_key "customers", "users"
   add_foreign_key "elevators", "columns"
   add_foreign_key "employees", "users"
-  add_foreign_key "leads", "customers"
 end
