@@ -23,7 +23,7 @@ class MapsController < ApplicationController
         @response = JSON.parse(rep.body)
     end
 
-        #creation of variables
+    #creation of variables
     address = building.address.name
     bat = building.batteries.count
     bat_ids = building.battery_ids

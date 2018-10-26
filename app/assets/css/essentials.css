@@ -76,7 +76,22 @@
  
 /**	01. Resets
 *************************************************** **/
-button::-moz-focus-inner, 
+ #map {
+ 	height: 100%;
+ }
+
+ #infowindow {
+ 	padding: 10px;
+ }
+
+ html,
+ body {
+ 	height: 100%;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+button::-moz-focus-inner,
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
