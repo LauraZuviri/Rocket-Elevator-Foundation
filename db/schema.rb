@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_23_114831) do
+ActiveRecord::Schema.define(version: 2018_10_23_154604) do
 
   create_table "addresses", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "address_type"
@@ -64,6 +64,8 @@ ActiveRecord::Schema.define(version: 2018_10_23_114831) do
     t.string "technician_phone"
     t.string "technician_email"
     t.string "building_name"
+    t.float "latitude"
+    t.float "longitude"
     t.index ["address_id"], name: "index_buildings_on_address_id"
     t.index ["customer_id"], name: "index_buildings_on_customer_id"
   end
@@ -137,6 +139,7 @@ ActiveRecord::Schema.define(version: 2018_10_23_114831) do
     t.binary "file_attachment", limit: 16777215
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "attachment_file"
     t.index ["customer_id"], name: "index_leads_on_customer_id"
   end
 
