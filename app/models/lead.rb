@@ -1,6 +1,4 @@
 require 'dropbox_api'
 class Lead < ApplicationRecord 
-
-
-  belongs_to :customer, optional: true
+  has_one :customer
 end
