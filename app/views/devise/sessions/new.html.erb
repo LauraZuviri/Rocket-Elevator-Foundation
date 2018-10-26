@@ -1,30 +1,64 @@
-<div class="text-center">
-  <h2>Employee Log in</h2>
+<div class="container">
+  
+  <div style="margin-right: auto; margin-left: auto" class="col-md-4">  
+    <div class="card card-login mx-auto mt-5" style="-webkit-box-shadow: 0px 2px 11px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 11px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 11px -1px rgba(0,0,0,0.75);">
+  
+      <div class="card-header">Login</div>
+  
+      <div class="card-body">
+  
+        <div class="form-group">
+          <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  
+          <div class="form-group">
+  
+            <div class="form-label-group">
+              <%= f.label :email %><br />
+              <%= f.email_field :email, autofocus: true, :class => "form-control", autocomplete: "email"  %>
+            </div>
+  
+          </div>
 
-  <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-    <div class="field">
-      <%= f.label :email %>
-      <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
-    </div>
-    <br />
-    <div class="field">
-      <%= f.label :password %>
-      <%= f.password_field :password, autocomplete: "current-password" %>
-    </div>
-    <br />
-    <% if devise_mapping.rememberable? -%>
-      <div class="field">
-        <%= f.check_box :remember_me %>
-        <%= f.label :remember_me %>
+          <div class="form-group">
+  
+            <div class="form-label-group">
+              <%= f.label :password %><br />
+              <%= f.password_field :password, :class => "form-control",  autocomplete: "current-password" %>
+            </div>
+  
+          </div>
+        </div>
+  
+        <div class="actions">
+          <%= f.submit "Log in", :class => 'btn btn-primary btn-block' %>
+        </div>
+  
+        <div class="form-group">
+  
+          <div class="text-center">
+            <% if devise_mapping.rememberable? -%>
+  
+            <div class="row">
+  
+              <div class="col-md-1">
+                <%= f.check_box :remember_me %>
+              </div>
+  
+              <div class="col-md-4">
+                <%= f.label :remember_me %>
+              </div>
+  
+            </div>
+          </div>
+          <% end -%>
+          <% end %>
+  
+        </div>
+        <%= render "devise/shared/links" %>
+  
       </div>
-    <% end -%>
-
-    <div class="actions">
-      <%= f.submit "Log in"%>
     </div>
-  <% end %>
-</div>
-      
-<%= render "devise/shared/links" %>
-
-
+  </div>
+</div> 

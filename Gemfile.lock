@@ -167,7 +167,7 @@ GEM
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
     json (2.1.0)
-    jwt (1.5.6)
+    jwt (2.1.0)
     kaminari (1.1.1)
       activesupport (>= 4.1.0)
       kaminari-actionview (= 1.1.1)
@@ -363,7 +363,6 @@ GEM
       rack (>= 1.0)
     watson-ruby (1.6.3)
       json
-    wdm (0.1.1)
     web-console (3.7.0)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -404,6 +403,10 @@ DEPENDENCIES
   devise (~> 4.2)
   dropbox_api
   eventmachine
+<<<<<<< HEAD
+=======
+  eventmachine
+>>>>>>> 4a1c619b2ec38bdeb9cb8a6be9928f3037ddf3b8
   figaro
  eventmachine
   figaro (~> 1.1, >= 1.1.1)
