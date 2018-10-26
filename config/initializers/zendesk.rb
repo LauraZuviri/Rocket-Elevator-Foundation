@@ -3,7 +3,7 @@ require 'zendesk_api'
 $client = ZendeskAPI::Client.new do |config|
   # Mandatory:
 
-  config.url = "https://codeboxxsteve.zendesk.com/api/v2"
+  config.url = "https://rocketelevator.zendesk.com/api/v2"
 
   # Basic / Token Authentication
   config.username = "stevecollard@icloud.com"
@@ -11,8 +11,7 @@ $client = ZendeskAPI::Client.new do |config|
   # Choose one of the following depending on your authentication choice
   config.token = "OCAXfBqeY5GWOGU8776qh8AjqyxVBMzYuhmzC2cP"
   config.password = "wupxen-jigkys-4qenbE"
-
-  # OAuth Authentication
+    # OAuth Authentication
   #config.access_token = "your OAuth access token"
 
   # Optional:

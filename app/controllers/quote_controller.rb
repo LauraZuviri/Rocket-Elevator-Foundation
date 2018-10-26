@@ -37,7 +37,6 @@ class QuoteController < ApplicationController
             \nEmail #{params['quote'][:email]}
             \nFrom #{params['quote'][:full_name]}
             \nCompany #{params['quote'][:business_name]}
-            \nNumber of apartments #{params['quote'][:nb_apt]}
             \nNumber of floors #{params['quote'][:nb_floors]}
             \nNumber of basements #{params['quote'][:nb_base]}
             \nNumber of companies #{params['quote'][:nb_cies]}
@@ -66,7 +65,6 @@ class QuoteController < ApplicationController
             \nEmail #{params['quote'][:email]}
             \nFrom #{params['quote'][:full_name]}
             \nCompany #{params['quote'][:business_name]}
-            \nNumber of apartments #{params['quote'][:nb_apt]}
             \nNumber of floors #{params['quote'][:nb_floors]}
             \nNumber of basements #{params['quote'][:nb_base]}
             \nNumber of corporations #{params['quote'][:nb_corp]}
@@ -95,7 +93,6 @@ class QuoteController < ApplicationController
             \nEmail #{params['quote'][:email]}
             \nFrom #{params['quote'][:full_name]}
             \nCompany #{params['quote'][:business_name]}
-            \nNumber of apartments #{params['quote'][:nb_apt]}
             \nNumber of floors #{params['quote'][:nb_floors]}
             \nNumber of basements #{params['quote'][:nb_base]}
             \nNumber of companies #{params['quote'][:nb_cies]}
