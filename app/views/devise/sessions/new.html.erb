@@ -1,21 +1,3 @@
-<% 
-require "net/http"
-require "uri"
-uri = URI.parse("https://stream.watsonplatform.net/authorization/api/v1/token?url=https://stream.watsonplatform.net/text-to-speech/api") 
-  request = Net::HTTP::Get.new(uri)
-  request.basic_auth("fa810f5b-f36a-4120-9c36-213c48f4bcd5", "6c3zk3AN1PHz")
-  req_options = {
-    use_ssl: uri.scheme = "https"
-  }
-
-  response = Net::HTTP.start(uri.hostname, uri.port, req_options)  do |http|
-    http.request(request)
-  end
-  p response.body
-  @token  = response.body
-  @text = 'Jeremy is the best Fortnite player' %>
-
-<%= javascript_include_tag('https://github.com/watson-developer-cloud/speech-javascript-sdk/releases/download/v0.35.1/watson-speech.js') %>
 <div class="text-center">
   <h2>Employee Log in</h2>
 
@@ -42,31 +24,4 @@ uri = URI.parse("https://stream.watsonplatform.net/authorization/api/v1/token?ur
     </div>
   <% end %>
 </div>
-      <button id="log">Test</button>
-
 <%= render "devise/shared/links" %>
-
-<script>
-var opts = {
-  token: '<%= @token %>',
-  voice: 'en-GB_KateVoice',
-  text: '<%= @text %>'
-}
-
-const main = async () => {
-  const audioTag = WatsonSpeech.TextToSpeech.synthesize(opts)
-    //   webkit-playsinline="true"
-    // playsinline="true"
-  audioTag.play()
-}
-
-document.querySelector("#log").onclick = () => {
-  main()
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  console.log('test')
- var button = document.getElementById("log")
- button.click()
-})
-</script>

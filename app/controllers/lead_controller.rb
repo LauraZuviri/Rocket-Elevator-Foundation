@@ -3,27 +3,22 @@ class LeadController < ApplicationController
     include SendGrid
 
     def index
-         
         client = DropboxApi::Client.new('C8Eg7_xlTzAAAAAAAAAAEsz6c89hSWEeULmvVUnlaCA0vo_Rk4D4k8DSghIWq6Vy')
-        
         @result = client.list_folder "/Yann Doré"
         pp @result.entries
         @result.has_more?   
-       
-
     end
 
     def new_lead
-        client = DropboxApi::Client.new('C8Eg7_xlTzAAAAAAAAAAEsz6c89hSWEeULmvVUnlaCA0vo_Rk4D4k8DSghIWq6Vy')
+        client = DropboxApi::Client.new(ENV["DROPBOX_KEY"])
         p = params["lead"].permit!
         puts "PARAMS = #{p}"
         file_attachment = p.delete("file_attachment") 
-        original_file_name = file_attachment.original_filename
-        puts "FILE NAME = #{original_file_name}" 
         if file_attachment != nil
-            file_attachment = file_attachment.read  
-        end
+        original_file_name = file_attachment.original_filename
         client.upload("/#{params["lead"]["full_name"]}/#{File.basename(original_file_name, '.*')}_#{Time.now.to_i}#{File.extname(original_file_name)}", file_attachment)
+        end
+
         lead = Lead.new(p)
         lead.valid?
         p lead.errors
@@ -45,7 +40,7 @@ class LeadController < ApplicationController
                     }
                 ],
                 \"from\": {
-                    \"email\": \"adm@rocketelevators.ca\"
+                    \"email\": \"rocketelevators@gmail.com\"
                 },
                 \"template_id\": \"d-a764a69415a54d3db616f1aab3e501a7\"
             }")
@@ -55,36 +50,13 @@ class LeadController < ApplicationController
             rescue Exception => e
                 puts e.message
             end
-        
-
-    end
-
-         lead = Lead.find(lead.id)
-        unless lead.file_attachment.nil?
-        
-         lead.file_attachment = nil
-         lead.save
-        end
-
-
-        # authenticator = DropboxApi::Authenticator.new("ub3wekvilx0yamm", "bonh62uwfvj6i9e")
-        # #authenticator.authorize_url #=> "https://www.dropbox.com/..."
-        
-
-        # auth_bearer = authenticator.get_token('C8Eg7_xlTzAAAAAAAAAACi90qEv3rL4ufKVtzTaHDTpElmtbr3IK2P-YPbz6MfQT') #=> #<OAuth2::AccessToken ...>`
-        # # auth_bearer.token #=> "VofXAX8D..."
-        
-        # client = DropboxApi::Client.new("ub3wekvilx0yamm")
-        
-        # result = client.list_folder "/sample_folder"
-        # result.entries
-        # result.has_more?
-
-
-
-
-        ZendeskAPI::Ticket.new($client, :id => 1, :priority => "normal") # doesn't actually send a request, must explicitly call #save! 
-        ZendeskAPI::Ticket.create!($client, 
+      
+        ticket = ZendeskAPI::Ticket.new($client, :id => 1, :priority => "normal") 
+        if file_attachment != nil
+            original_file_name = file_attachment.original_filename
+            ticket.comment.uploads << File.new("#{File.basename(original_file_name, '.*')}_#{Time.now.to_i}#{File.extname(original_file_name)}")
+            end
+        ticket.create!($client, 
             :subject => "#{params['lead'][:full_name]} from #{params['lead'][:company_name]}",
             :comment => "The contact #{params['lead'][:full_name]} from company #{params['lead'][:company_name]} 
             can be reached at email #{params['lead'][:email]} and at phone #{params['lead'][:phone]} number. 
@@ -106,7 +78,6 @@ class LeadController < ApplicationController
                 {id: 360010308814, value: "#{params['lead'][:project_description]}"},
                 {id: 360010241293, value: "#{params['lead'][:department].downcase.include?("corporate") ? "corporate_services" : "residential_services"}"}
             ],
-            
         )
     end
 end
