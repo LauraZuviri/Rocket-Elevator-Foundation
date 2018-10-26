@@ -1,6 +1,6 @@
 class Column < ApplicationRecord
   require 'slack-ruby-client'
-  validate :column_validate
+ validate :column_validate
   def building_type_enum
     [['Residential', 0],['Commercial',1],['Corporate',2],['Hybrid',3]]
   end
@@ -27,3 +27,4 @@ class Column < ApplicationRecord
     end
   end
 end
+
