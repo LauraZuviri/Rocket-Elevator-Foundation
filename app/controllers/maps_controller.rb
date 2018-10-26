@@ -14,7 +14,7 @@ class MapsController < ApplicationController
         #get info in database
         @for_google = building.address.name
 
-        test = "https://maps.googleapis.com/maps/api/geocode/json?address=" + @for_google + "&key=#{ENV["GOOGLE_KEY"]}"
+        test = "https://maps.googleapis.com/maps/api/geocode/json?address=" + @for_google + "&key=" + ENV["GOOGLE_KEY"]
         uri = URI(test)
 
     Net::HTTP.start(uri.host, uri.port, :use_ssl => uri.scheme == 'https') do |http|
