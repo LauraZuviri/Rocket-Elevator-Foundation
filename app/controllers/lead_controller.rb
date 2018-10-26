@@ -3,7 +3,7 @@ class LeadController < ApplicationController
     include SendGrid
 
     def index
-        client = DropboxApi::Client.new('C8Eg7_xlTzAAAAAAAAAAEsz6c89hSWEeULmvVUnlaCA0vo_Rk4D4k8DSghIWq6Vy')
+        client = DropboxApi::Client.new(ENV["DROPBOX_KEY"])
         @result = client.list_folder "/Yann Doré"
         pp @result.entries
         @result.has_more?   
@@ -50,46 +50,9 @@ class LeadController < ApplicationController
             rescue Exception => e
                 puts e.message
             end
-<<<<<<< HEAD
       
-        ticket = ZendeskAPI::Ticket.new($client, :id => 1, :priority => "normal") 
-        if file_attachment != nil
-            original_file_name = file_attachment.original_filename
-            ticket.comment.uploads << File.new("#{File.basename(original_file_name, '.*')}_#{Time.now.to_i}#{File.extname(original_file_name)}")
-            end
-        ticket.create!($client, 
-=======
-        
-
- 
-
-         lead = Lead.find(lead.id)
-        unless lead.file_attachment.nil?
-        
-         lead.file_attachment = nil
-         lead.save
-        end
-
-
-        # authenticator = DropboxApi::Authenticator.new("ub3wekvilx0yamm", "bonh62uwfvj6i9e")
-        # #authenticator.authorize_url #=> "https://www.dropbox.com/..."
-        
-
-        # auth_bearer = authenticator.get_token('C8Eg7_xlTzAAAAAAAAAACi90qEv3rL4ufKVtzTaHDTpElmtbr3IK2P-YPbz6MfQT') #=> #<OAuth2::AccessToken ...>`
-        # # auth_bearer.token #=> "VofXAX8D..."
-        
-        # client = DropboxApi::Client.new("ub3wekvilx0yamm")
-        
-        # result = client.list_folder "/sample_folder"
-        # result.entries
-        # result.has_more?
-
-
-
-
         ZendeskAPI::Ticket.new($client, :id => 1, :priority => "normal") # doesn't actually send a request, must explicitly call #save! 
         ZendeskAPI::Ticket.create!($client, 
->>>>>>> b5c3e3a5e36b8a9e74808e9809418d5eb6af01d4
             :subject => "#{params['lead'][:full_name]} from #{params['lead'][:company_name]}",
             :comment => "The contact #{params['lead'][:full_name]} from company #{params['lead'][:company_name]} 
             can be reached at email #{params['lead'][:email]} and at phone #{params['lead'][:phone]} number. 
