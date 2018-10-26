@@ -403,11 +403,6 @@ DEPENDENCIES
   devise (~> 4.2)
   dropbox_api
   eventmachine
-  eventmachine
-  figaro
- eventmachine
-  figaro (~> 1.1, >= 1.1.1)
-  ibm_watson
   figaro
   ibm_watson
   jbuilder (~> 2.5)
@@ -431,7 +426,6 @@ DEPENDENCIES
   tzinfo-data
   uglifier (>= 1.3.0)
   watson-ruby
-  wdm (>= 0.1.0)
   web-console (>= 3.3.0)
   websocket-client-simple
   zendesk_api (~> 1.16)
