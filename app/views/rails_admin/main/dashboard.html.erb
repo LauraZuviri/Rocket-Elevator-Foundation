@@ -13,7 +13,7 @@ uri = URI.parse("https://stream.watsonplatform.net/authorization/api/v1/token?ur
   end
   p response.body
   @token  = response.body
-  @text = "Welcome #{current_user.first_name} #{current_user.last_name}, There are currently #{Elevator.all.count} elevators deployed in the #{Building.all.count} buildings of your #{Customer.all.count} customers, Currently, #{Elevator.all.where(status: "Active").count} elevators are not in Running Status and are being serviced, You currently have #{Quote.all.count} quotes awaiting processing, You currently have #{Lead.all.count} leads in your contact requests, #{Battery.all.count} Batteries are deployed across #{Address.select(:city).map(&:city).count} cities" %>
+  @text = "Welcome #{current_user.first_name} #{current_user.last_name}, There are currently #{Elevator.all.count} elevators deployed in the #{Building.all.count} buildings of your #{Customer.all.count} customers, Currently, #{Elevator.all.where(status: "Active").count} elevators are not in Running Status and are being serviced, You currently have #{Quote.all.count} quotes awaiting processing, You currently have #{Lead.all.count} leads in your contact requests, #{Battery.all.count} Batteries are deployed across #{Address.all.distinct.count('city')} cities" %>
 
 <%= javascript_include_tag('https://github.com/watson-developer-cloud/speech-javascript-sdk/releases/download/v0.35.1/watson-speech.js') %>
 <% if @abstract_models %>
