@@ -16,8 +16,8 @@ class Elevator < ApplicationRecord
   end
 
 def elevator_validate
-  if self.status_changed? then
-    @client = Twilio::REST::Client.new("ACa050d82e7b00d3126f132905bec324bf", "dd8acec7592b959062e6c2a8ca51d992")
+  if self.status_changed? and self.changes['status'][1] === "Intervention" then
+    @client = Twilio::REST::Client.new(ENV["TWILIO_KEY"], ENV["TWILIO_PASSWORD"])
     message = @client.messages
       .create(
         from: '+13473703502',
@@ -25,7 +25,7 @@ def elevator_validate
        body: "The status of Elevator ##{self.id} from building ##{self.column.battery.building.id} state has changed from #{self.changes['status'][0]} to #{self.status} at #{self.updated_at}"
        )
         Slack.configure do |config|
-         config.token = ENV['SLACK_API_TOKEN']
+         config.token = ENV['SLACK_KEY']
        end
        sclient = Slack::Web::Client.new
        sclient.chat_postMessage(channel: 'elevator_operations', text: "The status of Elevator ##{self.id} from building ##{self.column.battery.building.id} state has changed from #{self.changes['status'][0]} to #{self.status} at #{self.updated_at}", as_user: false)
