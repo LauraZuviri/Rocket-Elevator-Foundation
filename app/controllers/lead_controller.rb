@@ -12,9 +12,8 @@ class LeadController < ApplicationController
     def new_lead
         client = DropboxApi::Client.new(ENV["DROPBOX_KEY"])
         p = params["lead"].permit!
-        puts "PARAMS = #{p}"
         file_attachment = p.delete("file_attachment") 
-        if file_attachment != nil
+        if params["lead"][:file_attachment].blank? === false
         original_file_name = file_attachment.original_filename
         client.upload("/#{params["lead"]["full_name"]}/#{File.basename(original_file_name, '.*')}_#{Time.now.to_i}#{File.extname(original_file_name)}", file_attachment)
         end
