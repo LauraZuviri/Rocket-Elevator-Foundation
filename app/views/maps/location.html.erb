@@ -25,20 +25,16 @@
   <% end %> 
 
   function initMap() {
-
+  var rocketOffice = {lat: 46.8428399, lng: -71.2818835};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 5,
-    center: {
-      lat: 42.12,
-      lng: -80.08
-    }
+    center: rocketOffice
   });
 
   var infoWin = new google.maps.InfoWindow({
     maxWidth: 220
   });
 
-  
   var icon = {
     url: "<%= image_path 'rocket_map.png' %>",
     scaledSize: new google.maps.Size(30, 42),
