@@ -35,7 +35,8 @@ namespace :import do
         address = Address.where(street_address: row["StreetAddress"]).first
         puts row["StreetAddress"]
         if address
-        customer = Customer.create!(user_id: user.id, business_name: row["BusinessName"], address_id: address.id, contact_full_name: row["ContactName"], contact_phone: row["ContactTelephone"], contact_email: row["ContactEmail"], business_description: row["CompanyDescription"], technician_full_name: row["TechnicianName"], technician_phone: row["TechnicianTelephone"], technician_email: row["TechnicianEmail"], created_at: row["Created At"], updated_at: row["Updated At"])
+        
+          customer = Customer.create!(user_id: user.id, business_name: row["BusinessName"], address_id: address.id, contact_full_name: row["ContactName"], contact_phone: row["ContactTelephone"], contact_email: row["ContactEmail"], business_description: row["CompanyDescription"], technician_full_name: row["TechnicianName"], technician_phone: row["TechnicianTelephone"], technician_email: row["TechnicianEmail"], created_at: row["Created At"], updated_at: row["Updated At"])
         end
     end
   end
