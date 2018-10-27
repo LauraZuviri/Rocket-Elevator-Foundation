@@ -2,6 +2,8 @@ class LeadController < ApplicationController
     require 'sendgrid-ruby'
     include SendGrid
 
+    #Create folder for Dropbox
+
     def index
         client = DropboxApi::Client.new("C8Eg7_xlTzAAAAAAAAAAMduh226EdjZy_X_pVqXkbOUenDBMOVpQwo0zhF9sr8bC")
         @result = client.list_folder "/Yann Doré"
@@ -13,18 +15,24 @@ class LeadController < ApplicationController
         p = params["lead"].permit!
         client = DropboxApi::Client.new('C8Eg7_xlTzAAAAAAAAAAMduh226EdjZy_X_pVqXkbOUenDBMOVpQwo0zhF9sr8bC')
         file_attachment = params["lead"]["file_attachment"]
-       original_file_name = file_attachment.original_filename 
-       p["original_file_name"] = original_file_name
-       p["file_attachment"] = file_attachment.read
-        # if file_attachment
-        #     client.upload("/rocket_elevators/#{params["lead"]["full_name"]}/#{File.basename(original_file_name, '.*')}_#{Time.now.to_i}#{File.extname(original_file_name)}", file_attachment.read)
-        # end
+         if file_attachment
+            original_file_name = file_attachment.original_filename 
+            p["original_file_name"] = original_file_name
+            p["file_attachment"] = file_attachment.read
+         else
+            p["original_file_name"] = nil
+            p["file_attachment"] = nil
+         end
+
+
 
         lead = Lead.new(p)
         lead.valid?
         p lead.errors
         lead.save!
 
+        #Sending confirmation email
+       
         data = JSON.parse("{
                 \"personalizations\": [
                     {
@@ -52,6 +60,8 @@ class LeadController < ApplicationController
                 puts e.message
             end
       
+            #Creating zendesk ticket
+
             if params['lead'][:file_attachment].blank? === false
                 ticket = ZendeskAPI::Ticket.create!($client, 
                     :subject => "#{params['lead'][:full_name]} from #{params['lead'][:company_name]}",
