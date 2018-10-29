@@ -12,6 +12,22 @@
 
 ActiveRecord::Schema.define(version: 2018_10_26_174334) do
 
+<<<<<<< HEAD
+  create_table "Addresses", id: false, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.text "Address Type"
+    t.text "Status"
+    t.text "Entity"
+    t.text "StreetAddress"
+    t.text "Suite or app"
+    t.text "City"
+    t.text "State"
+    t.text "ZipCode"
+    t.text "Country"
+    t.text "Notes"
+  end
+
+=======
+>>>>>>> 17ca6555d9d88e44dc5c4db252dd1e00c42ca86d
   create_table "addresses", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "address_type"
     t.string "status"
@@ -139,6 +155,8 @@ ActiveRecord::Schema.define(version: 2018_10_26_174334) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "original_file_name"
+    t.string "attachment_file"
+    t.index ["customer_id"], name: "index_leads_on_customer_id"
   end
 
   create_table "quotes", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
