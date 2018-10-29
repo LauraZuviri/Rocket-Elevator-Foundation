@@ -77,6 +77,8 @@ ActiveRecord::Schema.define(version: 2018_10_26_174334) do
     t.string "technician_phone"
     t.string "technician_email"
     t.string "building_name"
+    t.float "latitude"
+    t.float "longitude"
     t.index ["address_id"], name: "index_buildings_on_address_id"
     t.index ["customer_id"], name: "index_buildings_on_customer_id"
   end
@@ -152,6 +154,8 @@ ActiveRecord::Schema.define(version: 2018_10_26_174334) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "original_file_name"
+    t.string "attachment_file"
+    t.index ["customer_id"], name: "index_leads_on_customer_id"
   end
 
   create_table "quotes", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|

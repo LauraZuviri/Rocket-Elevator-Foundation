@@ -39,3 +39,6 @@
 
 # Ignore application configuration
 /config/application.yml
+
+#Stop adding your themes
+.vscode

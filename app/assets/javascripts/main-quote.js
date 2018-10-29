@@ -82,7 +82,7 @@ $(document).ready(function () {
         console.log(document.getElementById('type').value);
     });
 
-    $('#commercial').on('click', function () {
+    $('#commercial').on('active', function () {
         initialize();
         document.getElementById('type').value = "commercial";
         console.log(document.getElementById('type').value);
