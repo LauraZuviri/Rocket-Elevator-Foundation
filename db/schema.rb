@@ -12,20 +12,20 @@
 
 ActiveRecord::Schema.define(version: 2018_10_26_174334) do
 
-  create_table "addresses", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.string "address_type"
-    t.string "status"
-    t.string "entity"
-    t.string "street_address"
-    t.string "suite_or_apt"
-    t.string "city"
-    t.string "zip_code"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "country"
-    t.text "notes"
-    t.string "state"
+  create_table "Addresses", id: false, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.text "Address Type"
+    t.text "Status"
+    t.text "Entity"
+    t.text "StreetAddress"
+    t.text "Suite or app"
+    t.text "City"
+    t.text "State"
+    t.text "ZipCode"
+    t.text "Country"
+    t.text "Notes"
   end
+
+
 
   create_table "batteries", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.bigint "building_id"
@@ -64,8 +64,6 @@ ActiveRecord::Schema.define(version: 2018_10_26_174334) do
     t.string "technician_phone"
     t.string "technician_email"
     t.string "building_name"
-    t.float "latitude"
-    t.float "longitude"
     t.index ["address_id"], name: "index_buildings_on_address_id"
     t.index ["customer_id"], name: "index_buildings_on_customer_id"
   end
@@ -142,6 +140,8 @@ ActiveRecord::Schema.define(version: 2018_10_26_174334) do
     t.datetime "updated_at", null: false
     t.string "attachment_file"
     t.string "original_file_name"
+    t.string "attachment_file"
+    t.index ["customer_id"], name: "index_leads_on_customer_id"
   end
 
   create_table "quotes", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
@@ -191,7 +191,7 @@ ActiveRecord::Schema.define(version: 2018_10_26_174334) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
-  create_table "versions", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+  create_table "versions", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci", force: :cascade do |t|
     t.string "item_type", limit: 191, null: false
     t.integer "item_id", null: false
     t.string "event", null: false
