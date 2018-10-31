@@ -2,7 +2,7 @@ class Customer < ApplicationRecord
   belongs_to :user
   belongs_to :address
   has_many :buildings
-  belongs_to :lead
+  belongs_to :lead, optional: true
 after_save :dropbox
 
   rails_admin do
