@@ -50,7 +50,7 @@ namespace :import do
         customerID = Customer.order('RAND()').first.id
         address = Address.where(street_address: row["StreetAddress"]).first
         if address
-         building = Building.create!(customer_id: customerID, address_id: address.id, administrator_full_name: row["Adm Name"], administrator_phone: row["Adm Phone"], administrator_email: row["Adm Email"], technician_full_name: row["TechnicianName"], technician_phone: row["TechnicianTelephone"], technician_email: row["TechnicianEmail"], created_at: row["Created At"], updated_at: row["Updated At"], building_name: row["Building Name"])
+         building = Building.create!(customer_id: customerID, address_id: address.id, administrator_full_name: row["AdmName"], administrator_phone: row["AdmPhone"], administrator_email: row["AdmEmail"], technician_full_name: row["TechnicianName"], technician_phone: row["TechnicianPhone"], technician_email: row["TechnicianEmail"], created_at: row["Created_At"], updated_at: row["Updated_At"], building_name: row["Building Name"])
     end
   end
   end

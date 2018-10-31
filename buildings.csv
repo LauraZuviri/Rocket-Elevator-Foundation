@@ -1,40 +1,40 @@
-User ID,StreetAddress,Adm Name,Adm Email,Adm Phone,TechnicianName,TechnicianEmail,Technician Phone,Created At,Updated At,Building Name
-40,84 Reindahl Place,Brian Moore,BrianDMoore@superrito.com,416-448-7257,JP Boutin,jp@balactis.com,14182541074,10/5/2018 13:17,10/5/2018 13:17,Opal Building
-44,3034 Hermina Street,Fred Cade,FredLCade@fleckens.hu,416-813-7155,Nicolas Genest,nicolas.genest@codeboxx.biz,14182541074,10/5/2018 19:07,10/5/2018 19:07,Azur Tower
-48,011 6th Plaza,James Bradley,JamesDBradley@dayrep.com,647-405-8987,Philippe Bouillon,philippe.bouillon@codeboxx.biz,14182541074,10/5/2018 19:08,10/5/2018 19:08,Complexe Matrix
-50,3 Havey Drive,Frances Levering,FrancesJLevering@dayrep.com,705-439-3011,Felix-Antoine Paradis,felix-antoine.paradis@codeboxx.biz,14182541074,10/5/2018 19:09,10/5/2018 19:09,Centre Spark
-52,195 Commercial Court,Moses Rice,MosesBRice@jourrapide.com,819-672-0885,Remi Gagnon,remi.gagnon@codeboxx.biz,14182541074,10/5/2018 19:10,10/5/2018 19:10,Ssoot Center
-54,90 Riverside Plaza,Frieda Lopez,FriedaRLopez@cuvox.de,403-882-6700,Mathieu LeFrançois,mathieu.lefrancois@codeboxx.biz,14182541074,10/5/2018 19:11,10/5/2018 19:11,Crystal Building
-56,29317 Amoth Terrace,David Arnold,DavidNArnold@cuvox.de,519-818-3283,Nicolas Pineault,nicolas.pineault@codeboxx.biz,14182541074,10/5/2018 19:11,10/5/2018 19:11,Johnson Tower
-58,4 Merrick Avenue,Dana Tracey,DanaWTracey@dayrep.com,519-522-5600,Serge Savoie,serge.savoie@codeboxx.biz,14182541074,10/5/2018 19:12,10/5/2018 19:12,Complexe Azuro
-60,22 Elmside Place,Richard Branscum,RichardNBranscum@teleworm.us,613-560-3694,Nadya Fortier,nadya.fortier@codeboxx.biz,14182541074,10/5/2018 19:13,10/5/2018 19:13,Centre Desjardins
-62,3918 Melby Parkway,Margaret Porto,MargaretFPorto@teleworm.us,613-637-9901,Yann Dore,yanndo666@gmail.com,14182541074,10/5/2018 20:38,10/5/2018 20:38,Palace Center
-64,84 Hermina Plaza,Cynthia Garza,CynthiaGGarza@rhyta.com,604-762-6976,Stephane Bruyere,sbruyere@ypotek.com,14182541074,10/5/2018 20:40,10/5/2018 20:40,Rose Building
-66,85862 Loomis Center,Mary Ousley,MaryDOusley@superrito.com,780-909-7448,Gilles Trudel,gillesatrudel@gmail.com,14182541074,10/5/2018 20:41,10/5/2018 20:41,Trump Tower
-68,34 Oakridge Center,Mary Lawson,MaryJLawson@gustr.com,519-777-8574,Laura Zuviri,liz_15xz@hotmail.com,14182541074,10/5/2018 20:42,10/5/2018 20:42,Complexe razulo
-70,02 Springs Street,Royce Kirk,RoyceKKirk@gustr.com,514-482-3984,Mathieu Houde,mathieu.houde@live.ca,14182541074,10/5/2018 20:44,10/5/2018 20:44,Ford Center
-72,87 Esch Place,Dennis Moore,DennisKMoore@fleckens.hu,514-773-0477,JP Boutin,jp@balactis.com,14182541074,10/6/2018 13:17,10/6/2018 13:17,Serulo Center
-74,1464 Walton Court,Seymour Pena,SeymourJPena@einrot.com,780-418-4824,Nicolas Genest,nicolas.genest@codeboxx.biz,14182541074,10/6/2018 19:07,10/6/2018 19:07,Centre Travis
-76,05 Graceland Drive,Ruby Evans,RubyTEvans@teleworm.us,416-720-4586,Philippe Bouillon,philippe.bouillon@codeboxx.biz,14182541074,10/6/2018 19:08,10/6/2018 19:08,Mickael Center
-78,17962 Merry Trail,Joaquin Rounds,JoaquinVRounds@fleckens.hu,819-737-5756,Felix-Antoine Paradis,felix-antoine.paradis@codeboxx.biz,14182541074,11/6/2018 19:09,11/6/2018 19:09,BlueShark Building
-80,2 Cordelia Pass,John Avila,JohnEAvila@cuvox.de,519-241-1349,Remi Gagnon,remi.gagnon@codeboxx.biz,14182541074,11/6/2018 19:10,11/6/2018 19:10,Misery Tower
-82,59945 Trailsway Place,George Fitzgerald,GeorgeTFitzgerald@cuvox.de,416-554-1307,Nadya Fortier,nadya.fortier@codeboxx.biz,14182541074,10/5/2018 19:13,10/5/2018 19:13,Complexe AfterNight
-84,509 Helena Point,James Hernandez,JamesSHernandez@jourrapide.com,905-733-7157,Yann Dore,yanndo666@gmail.com,14182541074,10/5/2018 20:38,10/5/2018 20:38,Centre Brakery
-86,57 Schlimgen Junction,Anna Grogan,AnnaRGrogan@gustr.com,416-468-9155,Stephane Bruyere,sbruyere@ypotek.com,14182541074,10/5/2018 20:40,10/5/2018 20:40,Molson Center
-88,17 Jenifer Trail,Boyd Hunt,BoydJHunt@dayrep.com,613-951-5504,Gilles Trudel,gillesatrudel@gmail.com,14182541074,10/5/2018 20:41,10/5/2018 20:41,Shiny Tower
-89,006 Kim Trail,Brian Moore,BrianDMoore@superrito.com,416-448-7257,JP Boutin,jp@balactis.com,14182541074,10/5/2018 13:17,10/5/2018 13:17,Pepsi Building
-90,917 Tony Park,Fred Cade,FredLCade@fleckens.hu,416-813-7155,Nicolas Genest,nicolas.genest@codeboxx.biz,14182541074,10/5/2018 19:07,10/5/2018 19:07,Johnson Mall
-91,43 Melrose Terrace,James Bradley,JamesDBradley@dayrep.com,647-405-8987,Philippe Bouillon,philippe.bouillon@codeboxx.biz,14182541074,10/5/2018 19:08,10/5/2018 19:08,Petresburg Tower
-92,1219 Tennyson Street,Frances Levering,FrancesJLevering@dayrep.com,705-439-3011,Felix-Antoine Paradis,felix-antoine.paradis@codeboxx.biz,14182541074,10/5/2018 19:09,10/5/2018 19:09,World Trade I
-93,04 Kensington Street,Moses Rice,MosesBRice@jourrapide.com,819-672-0885,Remi Gagnon,remi.gagnon@codeboxx.biz,14182541074,10/5/2018 19:10,10/5/2018 19:10,Gizmo Mall
-94,51030 Sheridan Lane,Frieda Lopez,FriedaRLopez@cuvox.de,403-882-6700,Mathieu LeFrançois,mathieu.lefrancois@codeboxx.biz,14182541074,10/5/2018 19:11,10/5/2018 19:11,General Motor
-95,40619 Dennis Drive,David Arnold,DavidNArnold@cuvox.de,519-818-3283,Nicolas Pineault,nicolas.pineault@codeboxx.biz,14182541074,10/5/2018 19:11,10/5/2018 19:11,Fitzerald Building
-96,34044 Butterfield Avenue,Dana Tracey,DanaWTracey@dayrep.com,519-522-5600,Serge Savoie,serge.savoie@codeboxx.biz,14182541074,10/5/2018 19:12,10/5/2018 19:12,Mirego Center
-97,60 Kropf Road,Richard Branscum,RichardNBranscum@teleworm.us,613-560-3694,Nadya Fortier,nadya.fortier@codeboxx.biz,14182541074,10/5/2018 19:13,10/5/2018 19:13,Petroleum Tower
-98,1 Thierer Point,Margaret Porto,MargaretFPorto@teleworm.us,613-637-9901,Yann Dore,yanndo666@gmail.com,14182541074,10/5/2018 20:38,10/5/2018 20:38,Mig III Plaza
-99,6 Gerald Hill,Cynthia Garza,CynthiaGGarza@rhyta.com,604-762-6976,Stephane Bruyere,sbruyere@ypotek.com,14182541074,10/5/2018 20:40,10/5/2018 20:40,Joy Hotel
-100,949 Kingsford Hill,Mary Ousley,MaryDOusley@superrito.com,780-909-7448,Gilles Trudel,gillesatrudel@gmail.com,14182541074,10/5/2018 20:41,10/5/2018 20:41,Plaza Downtown
-101,149 Darwin Parkway,Mary Lawson,MaryJLawson@gustr.com,519-777-8574,Laura Zuviri,liz_15xz@hotmail.com,14182541074,10/5/2018 20:42,10/5/2018 20:42,Mutan Ninja Tower
-102,27 Corry Avenue,Royce Kirk,RoyceKKirk@gustr.com,514-482-3984,Mathieu Houde,mathieu.houde@live.ca,14182541074,10/5/2018 20:44,10/5/2018 20:44,Microsoft Center
-103,2 Manufacturers Way,Dennis Moore,DennisKMoore@fleckens.hu,514-773-0477,JP Boutin,jp@balactis.com,14182541074,10/6/2018 13:17,10/6/2018 13:17,Micro Byte Plaza
-104,560 Red Cloud Way,Seymour Pena,SeymourJPena@einrot.com,780-418-4824,Nicolas Genest,nicolas.genest@codeboxx.biz,14182541074,10/6/2018 19:07,10/6/2018 19:07,McDonald Corp Tower
+User ID,StreetAddress,AdmName,AdmEmail,AdmPhone,TechnicianName,TechnicianEmail,TechnicianPhone,Created_At,Updated_At,Building Name
+40,84 Reindahl Place,Brian Moore,BrianDMoore@superrito.com,416-448-7257,JP Boutin,jp@balactis.com,14182541074,01/11/2016 04:13:00,10/5/2018 13:17,Opal Building
+44,3034 Hermina Street,Fred Cade,FredLCade@fleckens.hu,416-813-7155,Nicolas Genest,nicolas.genest@codeboxx.biz,14182541074,09/11/2016 02:33:00,10/5/2018 19:07,Azur Tower
+48,011 6th Plaza,James Bradley,JamesDBradley@dayrep.com,647-405-8987,Philippe Bouillon,philippe.bouillon@codeboxx.biz,14182541074,03/12/2016 15:32:00,10/5/2018 19:08,Complexe Matrix
+50,3 Havey Drive,Frances Levering,FrancesJLevering@dayrep.com,705-439-3011,Felix-Antoine Paradis,felix-antoine.paradis@codeboxx.biz,14182541074,12/12/2016 18:52:00,10/5/2018 19:09,Centre Spark
+52,195 Commercial Court,Moses Rice,MosesBRice@jourrapide.com,819-672-0885,Remi Gagnon,remi.gagnon@codeboxx.biz,14182541074,20/12/2016 17:41:00,10/5/2018 19:10,Ssoot Center
+54,90 Riverside Plaza,Frieda Lopez,FriedaRLopez@cuvox.de,403-882-6700,Mathieu LeFrançois,mathieu.lefrancois@codeboxx.biz,14182541074,01/01/2017 15:41:00,10/5/2018 19:11,Crystal Building
+56,29317 Amoth Terrace,David Arnold,DavidNArnold@cuvox.de,519-818-3283,Nicolas Pineault,nicolas.pineault@codeboxx.biz,14182541074,02/01/2017 22:41:00,10/5/2018 19:11,Johnson Tower
+58,4 Merrick Avenue,Dana Tracey,DanaWTracey@dayrep.com,519-522-5600,Serge Savoie,serge.savoie@codeboxx.biz,14182541074,04/01/2017 23:13:00,10/5/2018 19:12,Complexe Azuro
+60,22 Elmside Place,Richard Branscum,RichardNBranscum@teleworm.us,613-560-3694,Nadya Fortier,nadya.fortier@codeboxx.biz,14182541074,06/01/2017 22:42:00,10/5/2018 19:13,Centre Desjardins
+62,3918 Melby Parkway,Margaret Porto,MargaretFPorto@teleworm.us,613-637-9901,Yann Dore,yanndo666@gmail.com,14182541074,09/01/2017 00:30:00,10/5/2018 20:38,Palace Center
+64,84 Hermina Plaza,Cynthia Garza,CynthiaGGarza@rhyta.com,604-762-6976,Stephane Bruyere,sbruyere@ypotek.com,14182541074,10/01/2017 08:30:00,10/5/2018 20:40,Rose Building
+66,85862 Loomis Center,Mary Ousley,MaryDOusley@superrito.com,780-909-7448,Gilles Trudel,gillesatrudel@gmail.com,14182541074,11/01/2017 10:30:00,10/5/2018 20:41,Trump Tower
+68,34 Oakridge Center,Mary Lawson,MaryJLawson@gustr.com,519-777-8574,Laura Zuviri,liz_15xz@hotmail.com,14182541074,10/02/2017 04:57:00,10/5/2018 20:42,Complexe razulo
+70,02 Springs Street,Royce Kirk,RoyceKKirk@gustr.com,514-482-3984,Mathieu Houde,mathieu.houde@live.ca,14182541074,17/02/2017 03:37:00,10/5/2018 20:44,Ford Center
+72,87 Esch Place,Dennis Moore,DennisKMoore@fleckens.hu,514-773-0477,JP Boutin,jp@balactis.com,14182541074,04/03/2017 19:56:00,10/6/2018 13:17,Serulo Center
+74,1464 Walton Court,Seymour Pena,SeymourJPena@einrot.com,780-418-4824,Nicolas Genest,nicolas.genest@codeboxx.biz,14182541074,07/03/2017 15:07:00,10/6/2018 19:07,Centre Travis
+76,05 Graceland Drive,Ruby Evans,RubyTEvans@teleworm.us,416-720-4586,Philippe Bouillon,philippe.bouillon@codeboxx.biz,14182541074,20/03/2017 15:07:00,10/6/2018 19:08,Mickael Center
+78,17962 Merry Trail,Joaquin Rounds,JoaquinVRounds@fleckens.hu,819-737-5756,Felix-Antoine Paradis,felix-antoine.paradis@codeboxx.biz,14182541074,28/03/2017 18:07:00,11/6/2018 19:09,BlueShark Building
+80,2 Cordelia Pass,John Avila,JohnEAvila@cuvox.de,519-241-1349,Remi Gagnon,remi.gagnon@codeboxx.biz,14182541074,07/04/2017 09:54:00,11/6/2018 19:10,Misery Tower
+82,59945 Trailsway Place,George Fitzgerald,GeorgeTFitzgerald@cuvox.de,416-554-1307,Nadya Fortier,nadya.fortier@codeboxx.biz,14182541074,12/04/2017 09:04:00,10/5/2018 19:13,Complexe AfterNight
+84,509 Helena Point,James Hernandez,JamesSHernandez@jourrapide.com,905-733-7157,Yann Dore,yanndo666@gmail.com,14182541074,19/04/2017 07:04:00,10/5/2018 20:38,Centre Brakery
+86,57 Schlimgen Junction,Anna Grogan,AnnaRGrogan@gustr.com,416-468-9155,Stephane Bruyere,sbruyere@ypotek.com,14182541074,04/05/2017 08:54:00,10/5/2018 20:40,Molson Center
+88,17 Jenifer Trail,Boyd Hunt,BoydJHunt@dayrep.com,613-951-5504,Gilles Trudel,gillesatrudel@gmail.com,14182541074,09/05/2017 13:04:00,10/5/2018 20:41,Shiny Tower
+89,006 Kim Trail,Brian Moore,BrianDMoore@superrito.com,416-448-7257,JP Boutin,jp@balactis.com,14182541074,10/05/2017 14:04:00,10/5/2018 13:17,Pepsi Building
+90,917 Tony Park,Fred Cade,FredLCade@fleckens.hu,416-813-7155,Nicolas Genest,nicolas.genest@codeboxx.biz,14182541074,11/05/2017 19:34:00,10/5/2018 19:07,Johnson Mall
+91,43 Melrose Terrace,James Bradley,JamesDBradley@dayrep.com,647-405-8987,Philippe Bouillon,philippe.bouillon@codeboxx.biz,14182541074,12/05/2017 19:22:00,10/5/2018 19:08,Petresburg Tower
+92,1219 Tennyson Street,Frances Levering,FrancesJLevering@dayrep.com,705-439-3011,Felix-Antoine Paradis,felix-antoine.paradis@codeboxx.biz,14182541074,13/05/2017 15:04:00,10/5/2018 19:09,World Trade I
+93,04 Kensington Street,Moses Rice,MosesBRice@jourrapide.com,819-672-0885,Remi Gagnon,remi.gagnon@codeboxx.biz,14182541074,03/06/2017 07:09:00,10/5/2018 19:10,Gizmo Mall
+94,51030 Sheridan Lane,Frieda Lopez,FriedaRLopez@cuvox.de,403-882-6700,Mathieu LeFrançois,mathieu.lefrancois@codeboxx.biz,14182541074,10/06/2017 23:05:00,10/5/2018 19:11,General Motor
+95,40619 Dennis Drive,David Arnold,DavidNArnold@cuvox.de,519-818-3283,Nicolas Pineault,nicolas.pineault@codeboxx.biz,14182541074,12/06/2017 01:25:00,10/5/2018 19:11,Fitzerald Building
+96,34044 Butterfield Avenue,Dana Tracey,DanaWTracey@dayrep.com,519-522-5600,Serge Savoie,serge.savoie@codeboxx.biz,14182541074,15/06/2017 03:25:00,10/5/2018 19:12,Mirego Center
+97,60 Kropf Road,Richard Branscum,RichardNBranscum@teleworm.us,613-560-3694,Nadya Fortier,nadya.fortier@codeboxx.biz,14182541074,19/06/2017 05:25:00,10/5/2018 19:13,Petroleum Tower
+98,1 Thierer Point,Margaret Porto,MargaretFPorto@teleworm.us,613-637-9901,Yann Dore,yanndo666@gmail.com,14182541074,22/06/2017 01:25:00,10/5/2018 20:38,Mig III Plaza
+99,6 Gerald Hill,Cynthia Garza,CynthiaGGarza@rhyta.com,604-762-6976,Stephane Bruyere,sbruyere@ypotek.com,14182541074,25/06/2017 05:25:00,10/5/2018 20:40,Joy Hotel
+100,949 Kingsford Hill,Mary Ousley,MaryDOusley@superrito.com,780-909-7448,Gilles Trudel,gillesatrudel@gmail.com,14182541074,26/06/2017 07:45:00,10/5/2018 20:41,Plaza Downtown
+101,149 Darwin Parkway,Mary Lawson,MaryJLawson@gustr.com,519-777-8574,Laura Zuviri,liz_15xz@hotmail.com,14182541074,29/06/2017 11:21:00,10/5/2018 20:42,Mutan Ninja Tower
+102,27 Corry Avenue,Royce Kirk,RoyceKKirk@gustr.com,514-482-3984,Mathieu Houde,mathieu.houde@live.ca,14182541074,30/06/2017 10:49:00,10/5/2018 20:44,Microsoft Center
+103,2 Manufacturers Way,Dennis Moore,DennisKMoore@fleckens.hu,514-773-0477,JP Boutin,jp@balactis.com,14182541074,02/07/2017 19:20:00,10/6/2018 13:17,Micro Byte Plaza
+104,560 Red Cloud Way,Seymour Pena,SeymourJPena@einrot.com,780-418-4824,Nicolas Genest,nicolas.genest@codeboxx.biz,14182541074,05/07/2017 15:27:00,10/6/2018 19:07,McDonald Corp Tower

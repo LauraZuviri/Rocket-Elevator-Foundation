@@ -12,7 +12,6 @@
 
 ActiveRecord::Schema.define(version: 2018_10_26_174334) do
 
-<<<<<<< HEAD
   create_table "Addresses", id: false, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.text "Address Type"
     t.text "Status"
@@ -26,22 +25,7 @@ ActiveRecord::Schema.define(version: 2018_10_26_174334) do
     t.text "Notes"
   end
 
-=======
->>>>>>> 17ca6555d9d88e44dc5c4db252dd1e00c42ca86d
-  create_table "addresses", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.string "address_type"
-    t.string "status"
-    t.string "entity"
-    t.string "street_address"
-    t.string "suite_or_apt"
-    t.string "city"
-    t.string "zip_code"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "country"
-    t.text "notes"
-    t.string "state"
-  end
+
 
   create_table "batteries", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.bigint "building_id"
@@ -154,6 +138,7 @@ ActiveRecord::Schema.define(version: 2018_10_26_174334) do
     t.binary "file_attachment", limit: 16777215
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "attachment_file"
     t.string "original_file_name"
     t.string "attachment_file"
     t.index ["customer_id"], name: "index_leads_on_customer_id"
