@@ -1,0 +1,64 @@
+<%= form_with(model: intervention, local: true) do |form| %>
+  <% if intervention.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(intervention.errors.count, "error") %> prohibited this intervention from being saved:</h2>
+
+      <ul>
+      <% intervention.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+
+    <% end %>
+    <strong>Customer<strong></br>
+    <div class="control-group">
+      <div class="controls">
+	      <%= collection_select(:intervention, :customer_id, Customer.order(:business_name), :id, :business_name, {prompt: 'Please select'} ) %>
+        </div> 
+    </div> 
+    <strong>Buildings<strong><br>
+    <div class="control-group">
+      <div class="controls">
+        <%= collection_select(:intervention, :building_id, Building.order(:customer_id), :id, :customer_id, { prompt: 'Select Building'} ) %>
+        </div>
+    </div>   
+    <strong>Batteries<strong><br>
+    <div class="control-group">
+      <div class="controls">
+        <%= collection_select(:intervention, :battery_id, Battery.order(:building_id), :id, :building_id, { prompt: 'Select Battery' } ) %>
+        </div>
+    </div>
+    <strong>Columns<strong><br>
+    <div class="control-group">
+      <div class="controls">
+        <%= collection_select(:intervention, :column_id, Column.order(:battery_id), :id, :battery_id, { prompt: 'Select Column' } ) %>
+        </div>
+    </div>
+    <strong>Elevators<strong><br>
+    <div class="control-group">
+      <div class="controls">
+        <%= collection_select(:intervention, :elevator_id, Elevator.order(:column_id), :id, :column_id, { prompt: 'Select Elevator'} ) %>
+        </div>
+    </div> 
+    <strong>Employees<strong><br>
+    <div class="control-group">
+      <div class="controls">
+        <%= collection_select(:intervention, :employee_id, Employee.order(:first_name), :id, :name, { prompt: 'Select Employee'} ) %>
+        </div>
+    </div>
+    <strong>Description<strong><br>
+    <div class="col-md-8">
+      <div class="control-group">
+        <div class="controls">
+        <textarea required maxlength="50" rows="2" class="form-control" name="intervention[report]" id="intervention:message"></textarea> 
+          </div>
+        </div>
+      </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
+
+

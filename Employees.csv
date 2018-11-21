@@ -1,0 +1,10 @@
+user_id,first_name,last_name,email,title,created_at,updated_at
+1,JP,Boutin,jp@balactis.com,employee,"2016-10-12 13:00:00","2016-10-13 13:00:00"
+13,Laura,Zuviri,lyz_15xz@hotmail.com,employee,"2016-10-12 13:00:00","2016-10-13 13:00:00"
+22,Nicolas,Genest,nicolas.genest@codeboxx.biz,employee,"2016-10-12 13:00:00","2016-10-13 13:00:00"
+46,Moses,Rice,Moses@gmail.com,employee,"2016-10-12 13:00:00","2016-10-13 13:00:00"
+75,"Charles ",Wallace,Charles@gmail.com,employee,"2016-10-12 13:00:00","2016-10-13 13:00:00"
+180,"Ma ",Daye,Ma@gmail.com,employee,"2016-10-12 13:00:00","2016-10-13 13:00:00"
+178,Tom,Green,Tom@gmail.com,employee,"2016-10-12 13:00:00","2016-10-13 13:00:00"
+198,Paul,Rhem,Paul@gmail.com,employee,"2016-10-12 13:00:00","2016-10-13 13:00:00"
+211,Dennis,Bliss,Dennis@gmail.com,employee,"2016-10-12 13:00:00","2016-10-13 13:00:00"

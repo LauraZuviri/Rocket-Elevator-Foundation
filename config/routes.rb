@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   
+  resources :interventions
   post 'sms' => 'twilio#sms'
   get 'sms' => 'twilio#sms'
   # resources :comments
@@ -17,7 +18,11 @@ Rails.application.routes.draw do
   post '/new_lead' =>'lead#new_lead'
   get '/chart' =>'charts#chart'
   get '/dropbox' =>'lead#index'
- 
+  post '/new_intervention' => 'interventions#new_intervention'
+  get '/buildings_for_customer' => 'interventions#buildings_for_customer'
+  get '/batteries_for_building' => 'interventions#batteries_for_building'
+  get '/columns_for_battery' => 'interventions#columns_for_battery' 
+  get '/elevators_for_column' => 'interventions#elevators_for_column'  
   devise_for :users, :controllers => { registrations: 'registrations' }
   root 'home#index'
 

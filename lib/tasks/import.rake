@@ -120,6 +120,5 @@ namespace :import do
         quote = Quote.create!(quote_type: row["Quote type"], full_name: row["Full name"], business_name: row["Business name"], email: row["Email"], nb_floors: row["Nb floors"], nb_apt: row["Nb apt"], nb_base: row["Nb base"], nb_cies: row["Nb cies"], nb_parking: row["Nb parking"], nb_shaft: row["Nb shaft"], nb_corp: row["Nb corp"], nb_person: row["Nb person"], req_elev: row["Req elev"], option: row["Option"], nb_elev: row["Nb elev"], price_per_elev: row["Price per elev"], elev_total: row["Elev total"], cost_install: row["Cost install"], total: row["Total"], created_at: row["Created at"], updated_at: row["Updated at"])
     end
   end
-
+  
 end
-

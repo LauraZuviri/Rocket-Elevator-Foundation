@@ -1,0 +1,146 @@
+		<!-- INTERVENTIONS -->
+		<section id="interventions">
+			<div class="container">
+
+				<header class="text-center mb-60">
+					<h2>Interventions</h2>
+					<hr />
+				</header>
+
+
+				<div class="row">
+
+					<!-- FORM -->
+					<div class="col-md-8 col-sm-8">
+
+						<h3><strong><em></em></strong></h3>
+
+						<!-- Alert Success -->
+						<div id="alert_success" class="alert alert-success mb-30">
+							<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+							<strong>Thank You!</strong> Your message successfully sent!
+						</div><!-- /Alert Success -->
+
+
+						<!-- Alert Failed -->
+						<div id="alert_failed" class="alert alert-danger mb-30">
+							<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+							<strong>[SMTP] Error!</strong> Internal server error!
+						</div><!-- /Alert Failed -->
+
+
+						<!-- Alert Mandatory -->
+						<div id="alert_mandatory" class="alert alert-danger mb-30">
+							<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+							<strong>Sorry!</strong> You need to complete all mandatory (*) fields!
+						</div><!-- /Alert Mandatory -->
+
+
+						<form id="my_interventionform"  method="post" action="javascript:;" enctype="multipart/form-data">
+							<fieldset>
+								<input type="hidden" name="action" value="contact_send" />
+
+								<div class="row">
+										<div class="col-md-4">
+											<label for="contact:name">Full Name *</label>
+											<input required type="text" value="" class="form-control" name="lead[full_name]" id="lead:name">
+										</div>
+										
+										<div class="col-md-4">
+											<label for="contact:email">E-mail Address *</label>
+											<input required type="email" value="" class="form-control" name="lead[email]" id="lead:email">
+										</div>
+										<div class="col-md-4">
+											<label for="contact:phone">Phone</label>
+											<input type="text" value="" class="form-control" name="lead[phone]" id="lead:phone">
+										</div>
+								</div>
+								<div class="row">
+										
+										<div class="col-md-6">
+											<label for="contact:name">Company Name *</label>
+											<input required type="text" value="" class="form-control" name="lead[company_name]" id="lead:company_name">
+										</div>
+										<div class="col-md-6">
+											<label for="contact:phone">Project Name *</label>
+											<input required type="text" value="" class="form-control" name="lead[project_name]" id="lead:project_name">
+										</div>
+								</div>
+								<div class="row">
+										<div class="col-md-8">
+											<label for="contact:message">Project Description *</label>
+											<textarea required maxlength="5000" rows="4" class="form-control" name="lead[project_description]" id="lead:message"></textarea>
+										</div>
+										<div class="col-md-4">
+											<label for="contact_department">Department</label>
+											<select class="form-control pointer" name="lead[department]">
+												<option value="">--- Select ---</option>
+												<option value="Marketing">Residential Services</option>
+												<option value="Webdesign">Corporate Services</option>
+											</select>
+										</div>
+								</div>
+								<div class="row">
+										<div class="col-md-12">
+											<label for="contact:message">Message *</label>
+											<textarea required maxlength="10000" rows="8" class="form-control" name="lead[message]" id="lead:message"></textarea>
+										</div>
+								</div>
+								<div class="row">
+										<div class="col-md-12">
+											<label for="contact:attachment">File Attachment</label>
+
+											<!-- custom file upload -->
+											<input class="custom-file-upload" type="file" id="file" name="lead[file_attachment]" id="lead:attachment" data-btn-text="Select a File" />
+											<small class="text-muted block">Max file size: 10Mb (zip/pdf/jpg/png)</small>
+
+										</div>
+								</div>
+
+							</fieldset>
+
+							<div class="row">
+								<div class="col-md-12">
+									<button type="submit" class="btn btn-primary"><i class="fa fa-check"></i> SEND MESSAGE</button>
+								</div>
+							</div>
+						</form>
+
+
+						<script>
+						$("#my_form").submit(function(event){
+							event.preventDefault(); //prevent default action 
+							var post_url = $(this).attr("action"); //get form action url
+							var request_method = $(this).attr("method"); //get form GET/POST method							
+							var form_data = new FormData($(this)[0]);
+
+						
+							console.log(form_data);
+							
+							$.ajax({
+								url : "/new_lead",
+								type: request_method,
+								async: false,
+								cache: false,
+								contentType: false,
+								processData: false,
+								data : form_data
+							}).done(function(response){
+								
+								alert('YOUR MESSAGE HAVE BEEN RECEIVED');
+								window.location="/";						
+							});
+						});
+						</script>
+
+
+
+
+					</div>
+					<!-- /FORM -->
+
+				</div>
+
+			</div>
+		</section>
+		<!-- /INTERVENTIONS -->
