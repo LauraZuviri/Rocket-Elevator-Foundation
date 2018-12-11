@@ -3,8 +3,8 @@ lock "~> 3.11.0"
 
 before 'deploy', 'rvm1:install:ruby'
 set :rvm_map_bins, [ 'rake', 'gem', 'bundle', 'ruby', 'puma', 'pumactl' ]
-set :application, "jp"
-set :repo_url, "https://github.com/yanndo/Rocket_Elevators_API.git"
+set :application, "laura"
+set :repo_url, "https://github.com/LauraZuviri/Rocket-Elevator-Foundation"
 # set :git_http_username, "username"
 # set :git_http_password, "password"
 
