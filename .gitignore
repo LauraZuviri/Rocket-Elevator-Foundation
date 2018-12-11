@@ -42,3 +42,6 @@
 
 #Stop adding your themes
 .vscode
+
+# Ignore application configuration
+/config/newrelic.yml
