@@ -92,3 +92,5 @@ gem 'sendgrid-ruby'
 gem 'zendesk_api', '~> 1.16'
 # dropbox
 gem 'dropbox_api'
+# new relic APM
+gem 'newrelic_rpm'
